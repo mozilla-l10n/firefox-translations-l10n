@@ -15,4 +15,4 @@ jobs:
           python-version: '3.8'
       - name: Check strings
         run: |
-          python .github/scripts/check_locales.py .
+          python .github/scripts/check_locales.py . --ref en_US
