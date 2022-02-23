@@ -1,0 +1,82 @@
+{
+  "extensionName": {
+    "message": "Firefox Translations",
+    "description": "Name of the extension. Do NOT translate, keep the name in English."
+  },
+  "extensionDescription": {
+    "message": "Traduci i siti web nel tuo browser senza passare dal cloud.",
+    "description": "Description of the extension."
+  },
+  "loadingTranslationEngine": {
+    "message": "Caricamento motore di traduzione…",
+    "description": "Tells the user the translation engine is being loaded."
+  },
+  "translationLoadedWithErrors": {
+    "message": "La traduzione automatica è attiva ma si sono verificati degli errori.",
+    "description": "Tells the user the translation engine was loaded but errors were found."
+  },
+  "checksumErrorsDownloadingEngine": {
+    "message": "Rilevati errori nel checksum durante il download del motore di traduzione.",
+    "description": "Tells the user there were errors downloading the translation engine."
+  },
+  "notfoundErrorsDownloadingEngine": {
+    "message": "Impossibile trovare il motore di traduzione da scaricare.",
+    "description": "Tells the user the translation engine could not be found to download."
+  },
+  "nodataDownloadingEngine": {
+    "message": "Non è stato trovato alcun dato durante il download del motore di traduzione.",
+    "description": "Tells the user the translation engine had not data when downloading."
+  },
+  "translationEnabled": {
+    "message": "Traduzione automatica attiva.",
+    "description": "Tells the user the automatic translation was enabled."
+  },
+  "translationEnabledNoOT": {
+    "message": "La traduzione automatica è attiva ma la traduzione dei moduli non è disponibile per questa lingua.",
+    "description": "Tells the user the automatic translation was enabled but form translations is not supported."
+  },
+  "timeoutDownloadingEngine": {
+    "message": "Tempo esaurito per il download del motore di traduzione.",
+    "description": "Tells the user the download of the translation engine timed out."
+  },
+  "errorLoadingWasm": {
+    "message": "Si è verificato un errore durante il caricamento del motore di traduzione.",
+    "description": "Tells the user we found and error loading the translation engine."
+  },
+  "statsMessage": {
+    "message": "Traduzione attiva. Parole tradotte al secondo: $WORDSPERSECOND$.",
+    "description": "Tells the user that translation is enabled and the current performance metric of words translated per second.",
+    "placeholders": {
+      "wordspersecond": {
+        "content": "$1",
+        "example": "500"
+      }
+    }
+  },
+  "downloadProgress": {
+    "message": "Progresso download (byte): $RECEIVEDLENGTH$ di $CONTENTLENGTH$.",
+    "description": "Tells the user the download progress of the engine artifacts.",
+    "placeholders": {
+      "receivedlength": {
+        "content": "$1",
+        "example": "100"
+      },
+      "contentlength": {
+        "content": "$2",
+        "example": "1000"
+      }
+    }
+  },
+  "displayStatisticsMessage": {
+    "message": "Mostra statistiche",
+    "description": "Option to show statistics in the infobar (display is intended as a verb)."
+  },
+  "outboundTranslationsMessage": {
+    "message": "Attiva traduzione dei moduli",
+    "description": "Ask the users if they want to enable the translation of forms."
+  },
+  "qualityEstimationMessage": {
+    "message": "Attiva valutazione della qualità",
+    "description": "Ask the users if they want to enable the quality estimation of the translation."
+  }
+}
