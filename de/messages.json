@@ -30,5 +30,53 @@
   "translationEnabled": {
     "message": "Automatische Übersetzung aktiviert.",
     "description": "Tells the user the automatic translation was enabled."
+  },
+  "translationEnabledNoOT": {
+    "message": "Automatische Übersetzung aktiviert, aber die Übersetzung von Formularen wird in dieser Sprache nicht unterstützt.",
+    "description": "Tells the user the automatic translation was enabled but form translations is not supported."
+  },
+  "timeoutDownloadingEngine": {
+    "message": "Zeitüberschreitung beim Herunterladen der Übersetzungs-Engine.",
+    "description": "Tells the user the download of the translation engine timed out."
+  },
+  "errorLoadingWasm": {
+    "message": "Beim Laden der Übersetzungs-Engine ist ein Fehler aufgetreten.",
+    "description": "Tells the user we found and error loading the translation engine."
+  },
+  "statsMessage": {
+    "message": "Übersetzung aktiviert. Pro Sekunde übersetzte Wörter: $WORDSPERSECOND$.",
+    "description": "Tells the user that translation is enabled and the current performance metric of words translated per second.",
+    "placeholders": {
+      "wordspersecond": {
+        "content": "$1",
+        "example": "500"
+      }
+    }
+  },
+  "downloadProgress": {
+    "message": "Heruntergeladen (Bytes): $RECEIVEDLENGTH$ von $CONTENTLENGTH$.",
+    "description": "Tells the user the download progress of the engine artifacts.",
+    "placeholders": {
+      "receivedlength": {
+        "content": "$1",
+        "example": "100"
+      },
+      "contentlength": {
+        "content": "$2",
+        "example": "1000"
+      }
+    }
+  },
+  "displayStatisticsMessage": {
+    "message": "Statistiken anzeigen",
+    "description": "Option in menu to show statistics in the infobar (display is intended as a verb)."
+  },
+  "outboundTranslationsMessage": {
+    "message": "Übersetzung von Formularen aktivieren",
+    "description": "Checkbox to enable the translation of forms."
+  },
+  "qualityEstimationMessage": {
+    "message": "Qualitätsschätzung aktivieren",
+    "description": "Checkbox to enable the quality estimation of the translation."
   }
 }
