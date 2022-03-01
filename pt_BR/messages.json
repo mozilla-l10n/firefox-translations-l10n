@@ -52,5 +52,31 @@
         "example": "500"
       }
     }
+  },
+  "downloadProgress": {
+    "message": "Progresso do download (bytes): $RECEIVEDLENGTH$ de $CONTENTLENGTH$.",
+    "description": "Tells the user the download progress of the engine artifacts.",
+    "placeholders": {
+      "receivedlength": {
+        "content": "$1",
+        "example": "100"
+      },
+      "contentlength": {
+        "content": "$2",
+        "example": "1000"
+      }
+    }
+  },
+  "displayStatisticsMessage": {
+    "message": "Exibir estatísticas",
+    "description": "Option in menu to show statistics in the infobar (display is intended as a verb)."
+  },
+  "outboundTranslationsMessage": {
+    "message": "Ativar traduções de formulários",
+    "description": "Checkbox to enable the translation of forms."
+  },
+  "qualityEstimationMessage": {
+    "message": "Ativar estimativa de qualidade",
+    "description": "Checkbox to enable the quality estimation of the translation."
   }
 }
