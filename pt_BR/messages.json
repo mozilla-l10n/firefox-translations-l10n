@@ -14,5 +14,43 @@
   "translationLoadedWithErrors": {
     "message": "A tradução automática está ativada, mas encontramos erros.",
     "description": "Tells the user the translation engine was loaded but errors were found."
+  },
+  "checksumErrorsDownloadingEngine": {
+    "message": "Encontramos erros de verificação ao baixar o mecanismo de tradução.",
+    "description": "Tells the user there were errors downloading the translation engine."
+  },
+  "notfoundErrorsDownloadingEngine": {
+    "message": "Não foi possível encontrar o mecanismo de tradução a ser baixado.",
+    "description": "Tells the user the translation engine could not be found to download."
+  },
+  "nodataDownloadingEngine": {
+    "message": "Não encontramos dados ao baixar o mecanismo de tradução.",
+    "description": "Tells the user the translation engine had not data when downloading."
+  },
+  "translationEnabled": {
+    "message": "Tradução automática ativada.",
+    "description": "Tells the user the automatic translation was enabled."
+  },
+  "translationEnabledNoOT": {
+    "message": "Tradução automática ativada, mas não há suporte a tradução de formulários neste idioma.",
+    "description": "Tells the user the automatic translation was enabled but form translations is not supported."
+  },
+  "timeoutDownloadingEngine": {
+    "message": "Tempo limite excedido ao baixar o mecanismo de tradução.",
+    "description": "Tells the user the download of the translation engine timed out."
+  },
+  "errorLoadingWasm": {
+    "message": "Encontramos um erro ao carregar o mecanismo de tradução.",
+    "description": "Tells the user we found and error loading the translation engine."
+  },
+  "statsMessage": {
+    "message": "Tradução ativada. Palavras traduzidas por segundo: $WORDSPERSECOND$.",
+    "description": "Tells the user that translation is enabled and the current performance metric of words translated per second.",
+    "placeholders": {
+      "wordspersecond": {
+        "content": "$1",
+        "example": "500"
+      }
+    }
   }
 }
