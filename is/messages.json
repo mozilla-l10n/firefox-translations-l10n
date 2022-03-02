@@ -3,9 +3,37 @@
     "message": "Firefox þýðingar",
     "description": "Name of the extension. Do NOT translate, keep the name in English."
   },
+  "extensionDescription": {
+    "message": "Þýddu vefsvæði í vafranum þínum án þess að nota skýið.",
+    "description": "Description of the extension."
+  },
+  "loadingTranslationEngine": {
+    "message": "Hleð inn þýðingarvél…",
+    "description": "Tells the user the translation engine is being loaded."
+  },
+  "translationLoadedWithErrors": {
+    "message": "Sjálfvirk þýðing er virkjuð en við fundum villur.",
+    "description": "Tells the user the translation engine was loaded but errors were found."
+  },
+  "checksumErrorsDownloadingEngine": {
+    "message": "Við fundum gátsummuvillur við að sækja þýðingarvélina.",
+    "description": "Tells the user there were errors downloading the translation engine."
+  },
+  "notfoundErrorsDownloadingEngine": {
+    "message": "Við fundum ekki þýðingarvélina sem á að sækja.",
+    "description": "Tells the user the translation engine could not be found to download."
+  },
+  "nodataDownloadingEngine": {
+    "message": "Við fundum engin gögn við að sækja þýðingarvélina.",
+    "description": "Tells the user the translation engine had not data when downloading."
+  },
   "translationEnabled": {
     "message": "Sjálfvirk þýðing virkjuð.",
     "description": "Tells the user the automatic translation was enabled."
+  },
+  "translationEnabledNoOT": {
+    "message": "Sjálfvirk þýðing virkjuð en þýðing á innfyllingarformum er ekki studd fyrir þetta tungumál.",
+    "description": "Tells the user the automatic translation was enabled but form translations is not supported."
   },
   "displayStatisticsMessage": {
     "message": "Birta tölfræði",
