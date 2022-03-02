@@ -2,5 +2,25 @@
   "extensionName": {
     "message": "Firefox Translations",
     "description": "Name of the extension. Do NOT translate, keep the name in English."
+  },
+  "extensionDescription": {
+    "message": "Traduza websites no seu navegador sem usar a nuvem.",
+    "description": "Description of the extension."
+  },
+  "loadingTranslationEngine": {
+    "message": "A Carregar Motor de Traduções…",
+    "description": "Tells the user the translation engine is being loaded."
+  },
+  "translationLoadedWithErrors": {
+    "message": "A tradução automática está ativada, mas encontramos erros.",
+    "description": "Tells the user the translation engine was loaded but errors were found."
+  },
+  "checksumErrorsDownloadingEngine": {
+    "message": "Encontramos erros de soma de verificação ao transferir o motor de traduções.",
+    "description": "Tells the user there were errors downloading the translation engine."
+  },
+  "notfoundErrorsDownloadingEngine": {
+    "message": "Não conseguimos encontrar o motor de traduções para transferir.",
+    "description": "Tells the user the translation engine could not be found to download."
   }
 }
