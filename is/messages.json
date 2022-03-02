@@ -1,0 +1,18 @@
+{
+  "extensionName": {
+    "message": "Firefox þýðingar",
+    "description": "Name of the extension. Do NOT translate, keep the name in English."
+  },
+  "translationEnabled": {
+    "message": "Sjálfvirk þýðing virkjuð.",
+    "description": "Tells the user the automatic translation was enabled."
+  },
+  "displayStatisticsMessage": {
+    "message": "Birta tölfræði",
+    "description": "Option in menu to show statistics in the infobar (display is intended as a verb)."
+  },
+  "qualityEstimationMessage": {
+    "message": "Virkja mat á gæðum",
+    "description": "Checkbox to enable the quality estimation of the translation."
+  }
+}
