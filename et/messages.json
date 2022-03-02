@@ -1,0 +1,82 @@
+{
+  "extensionName": {
+    "message": "Firefox Translations",
+    "description": "Name of the extension. Do NOT translate, keep the name in English."
+  },
+  "extensionDescription": {
+    "message": "Tõlgi saite oma brauseris, ilma pilve kasutamata.",
+    "description": "Description of the extension."
+  },
+  "loadingTranslationEngine": {
+    "message": "Tõlkemootori laadimine…",
+    "description": "Tells the user the translation engine is being loaded."
+  },
+  "translationLoadedWithErrors": {
+    "message": "Automaattõlge on lubatud, kuid leidsime vigu.",
+    "description": "Tells the user the translation engine was loaded but errors were found."
+  },
+  "checksumErrorsDownloadingEngine": {
+    "message": "Tõlkemootori allalaadimisel leidsime kontrollsumma vigu.",
+    "description": "Tells the user there were errors downloading the translation engine."
+  },
+  "notfoundErrorsDownloadingEngine": {
+    "message": "Me ei leidnud allalaadimiseks tõlkemootorit.",
+    "description": "Tells the user the translation engine could not be found to download."
+  },
+  "nodataDownloadingEngine": {
+    "message": "Tõlkemootori allalaadimisel me andmeid ei leidnud.",
+    "description": "Tells the user the translation engine had not data when downloading."
+  },
+  "translationEnabled": {
+    "message": "Automaattõlge on lubatud.",
+    "description": "Tells the user the automatic translation was enabled."
+  },
+  "translationEnabledNoOT": {
+    "message": "Automaatne tõlge on lubatud, kuid vormide tõlkimist selles keeles ei toetata.",
+    "description": "Tells the user the automatic translation was enabled but form translations is not supported."
+  },
+  "timeoutDownloadingEngine": {
+    "message": "Tõlkemootori allalaadimine aegus.",
+    "description": "Tells the user the download of the translation engine timed out."
+  },
+  "errorLoadingWasm": {
+    "message": "Tõlkemootori laadimisel esines viga.",
+    "description": "Tells the user we found and error loading the translation engine."
+  },
+  "statsMessage": {
+    "message": "Tõlge on lubatud. Sekundis tõlgitud sõnad: $WORDSPERSECOND$.",
+    "description": "Tells the user that translation is enabled and the current performance metric of words translated per second.",
+    "placeholders": {
+      "wordspersecond": {
+        "content": "$1",
+        "example": "500"
+      }
+    }
+  },
+  "downloadProgress": {
+    "message": "Allalaaditud (baitides): $RECEIVEDLENGTH$/$CONTENTLENGTH$.",
+    "description": "Tells the user the download progress of the engine artifacts.",
+    "placeholders": {
+      "receivedlength": {
+        "content": "$1",
+        "example": "100"
+      },
+      "contentlength": {
+        "content": "$2",
+        "example": "1000"
+      }
+    }
+  },
+  "displayStatisticsMessage": {
+    "message": "Kuva statistikat",
+    "description": "Option in menu to show statistics in the infobar (display is intended as a verb)."
+  },
+  "outboundTranslationsMessage": {
+    "message": "Luba vormide tõlkimine",
+    "description": "Checkbox to enable the translation of forms."
+  },
+  "qualityEstimationMessage": {
+    "message": "Luba kvaliteedi hindamine",
+    "description": "Checkbox to enable the quality estimation of the translation."
+  }
+}
