@@ -1,0 +1,26 @@
+{
+  "extensionName": {
+    "message": "Firefox Translations",
+    "description": "Name of the extension. Do NOT translate, keep the name in English."
+  },
+  "extensionDescription": {
+    "message": "Tłumacz strony internetowe w przeglądarce bez korzystania z chmury.",
+    "description": "Description of the extension."
+  },
+  "loadingTranslationEngine": {
+    "message": "Wczytywanie mechanizmu tłumaczenia…",
+    "description": "Tells the user the translation engine is being loaded."
+  },
+  "translationLoadedWithErrors": {
+    "message": "Automatyczne tłumaczenie jest włączone, ale wystąpiły błędy.",
+    "description": "Tells the user the translation engine was loaded but errors were found."
+  },
+  "checksumErrorsDownloadingEngine": {
+    "message": "Podczas pobierania mechanizmu tłumaczenia wystąpiły błędy sum kontrolnych.",
+    "description": "Tells the user there were errors downloading the translation engine."
+  },
+  "notfoundErrorsDownloadingEngine": {
+    "message": "Nie można odnaleźć mechanizmu tłumaczenia do pobrania.",
+    "description": "Tells the user the translation engine could not be found to download."
+  }
+}
