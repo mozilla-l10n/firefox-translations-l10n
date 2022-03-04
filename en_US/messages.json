@@ -78,5 +78,35 @@
     "qualityEstimationMessage": {
       "message": "Enable quality estimation",
       "description":"Checkbox to enable the quality estimation of the translation."
+    },
+    "formtranslationsReady": {
+      "message": "Ready",
+      "description":"Notifies that the form translations is ready to be used."
+    },
+    "formtranslationsTyping": {
+      "message": "Typing",
+      "description":"Notifies the user that typing is occuring in the form translations area."
+    },
+    "formtranslationsTranslationInProgress": {
+      "message": "Translation in progress...",
+      "description":"Notifies the user that the translation of the input text is happening."
+    },
+    "formtranslationsTranslationCompleted": {
+      "message": "Translation completed.",
+      "description":"Notifies the user that the translation of the input text is completed."
+    },
+    "formtranslationsDescription": {
+      "message": "This is Form Translations by Firefox Translations. Type in the form to the left in <em>$navigatorLanguage$</em>  and have the form you selected translated to <em>$pageLanguage$</em>. The form to the right represents the text translated back from <em>$pageLanguage$</em> to <em>$navigatorLanguage$</em> for verification.",
+      "description":"Usage instructions of form translations to be displayed to the user.",
+      "placeholders": {
+        "navigatorLanguage" : {
+          "content" : "$1",
+          "example" : "en"
+        },
+        "pageLanguage" : {
+          "content" : "$2",
+          "example" : "pt"
+        }
+      }
     }
 }
