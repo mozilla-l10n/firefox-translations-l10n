@@ -88,7 +88,7 @@
       "description":"Notifies the user that typing is occuring in the form translations area."
     },
     "formtranslationsTranslationInProgress": {
-      "message": "Translation in progress...",
+      "message": "Translation in progress…",
       "description":"Notifies the user that the translation of the input text is happening."
     },
     "formtranslationsTranslationCompleted": {
