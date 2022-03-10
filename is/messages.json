@@ -78,5 +78,35 @@
   "qualityEstimationMessage": {
     "message": "Virkja mat á gæðum",
     "description": "Checkbox to enable the quality estimation of the translation."
+  },
+  "formtranslationsReady": {
+    "message": "Tilbúið",
+    "description": "Notifies that the form translation is ready to be used."
+  },
+  "formtranslationsTyping": {
+    "message": "Er að skrifa…",
+    "description": "Notifies the user that typing is occuring in the form translations area."
+  },
+  "formtranslationsTranslationInProgress": {
+    "message": "Þýðing í gangi…",
+    "description": "Notifies the user that the translation of the input text is happening."
+  },
+  "formtranslationsTranslationCompleted": {
+    "message": "Þýðingu lokið",
+    "description": "Notifies the user that the translation of the input text is completed."
+  },
+  "formtranslationsDescription": {
+    "message": "Þetta er eiginleikinn til þýðinga á innfyllingarformum frá Firefox-þýðingum. Settu inn í reitinn vinstra megin <em>$navigatorLanguage$</em> og þýðingin á <em>$pageLanguage$</em> verður sett inn í upprunalegu reitina. Reiturinn til hægri sýnir textann sem er þýddur aftur úr <em>$pageLanguage$</em> yfir á <em>$navigatorLanguage$</em> til staðfestingar.",
+    "description": "Usage instructions of form translations to be displayed to the user.",
+    "placeholders": {
+      "navigatorLanguage": {
+        "content": "$1",
+        "example": "English"
+      },
+      "pageLanguage": {
+        "content": "$2",
+        "example": "Portuguese"
+      }
+    }
   }
 }
