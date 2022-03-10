@@ -101,11 +101,11 @@
       "placeholders": {
         "navigatorLanguage" : {
           "content" : "$1",
-          "example" : "en"
+          "example" : "English"
         },
         "pageLanguage" : {
           "content" : "$2",
-          "example" : "pt"
+          "example" : "Portuguese"
         }
       }
     }
