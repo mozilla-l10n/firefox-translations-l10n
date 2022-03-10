@@ -78,5 +78,9 @@
   "qualityEstimationMessage": {
     "message": "Habilitar estimación de calidad",
     "description": "Checkbox to enable the quality estimation of the translation."
+  },
+  "formtranslationsReady": {
+    "message": "Listo",
+    "description": "Notifies that the form translation is ready to be used."
   }
 }
