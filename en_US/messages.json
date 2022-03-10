@@ -96,7 +96,7 @@
       "description":"Notifies the user that the translation of the input text is completed."
     },
     "formtranslationsDescription": {
-      "message": "This is form translations by Firefox Translations. Type in the form to the left in <em>$navigatorLanguage$</em> and have the form you selected translated to <em>$pageLanguage$</em>. The form to the right represents the text translated back from <em>$pageLanguage$</em> to <em>$navigatorLanguage$</em> for verification.",
+      "message": "This is the form translation feature by Firefox Translations. Type in the field on the left in <em>$navigatorLanguage$</em> and the translation in <em>$pageLanguage$</em> will be inserted in the original form. The field on the right shows the text translated back from <em>$pageLanguage$</em> to <em>$navigatorLanguage$</em> for verification purpose.",
       "description":"Usage instructions of form translations to be displayed to the user.",
       "placeholders": {
         "navigatorLanguage" : {
