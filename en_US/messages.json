@@ -92,7 +92,7 @@
       "description":"Notifies the user that the translation of the input text is happening."
     },
     "formtranslationsTranslationCompleted": {
-      "message": "Translation completed.",
+      "message": "Translation completed",
       "description":"Notifies the user that the translation of the input text is completed."
     },
     "formtranslationsDescription": {
