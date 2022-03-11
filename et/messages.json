@@ -94,5 +94,19 @@
   "formtranslationsTranslationCompleted": {
     "message": "Tõlkimine lõpetatud",
     "description": "Notifies the user that the translation of the input text is completed."
+  },
+  "formtranslationsDescription": {
+    "message": "See on Firefox Translationsi vormi tõlkimise funktsionaalsus. Sisesta väljale vasakul keeles <em>$navigatorLanguage$</em> ja tõlge sisestatakse algsesse vormi keeles <em>$pageLanguage$</em>. Väli paremal kuvab kontrollimise eesmärgil tagasi tõlgitud sisu keelest <em>$pageLanguage$</em> keelde <em>$navigatorLanguage$</em>.",
+    "description": "Usage instructions of form translations to be displayed to the user.",
+    "placeholders": {
+      "navigatorLanguage": {
+        "content": "$1",
+        "example": "English"
+      },
+      "pageLanguage": {
+        "content": "$2",
+        "example": "Portuguese"
+      }
+    }
   }
 }
