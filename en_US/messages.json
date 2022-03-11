@@ -84,7 +84,7 @@
       "description":"Notifies that the form translation is ready to be used."
     },
     "formtranslationsTyping": {
-      "message": "Typing…",
+      "message": "Typing… TEST",
       "description":"Notifies the user that typing is occuring in the form translations area."
     },
     "formtranslationsTranslationInProgress": {
