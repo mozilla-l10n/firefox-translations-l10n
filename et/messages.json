@@ -78,5 +78,21 @@
   "qualityEstimationMessage": {
     "message": "Luba kvaliteedi hindamine",
     "description": "Checkbox to enable the quality estimation of the translation."
+  },
+  "formtranslationsReady": {
+    "message": "Valmis",
+    "description": "Notifies that the form translation is ready to be used."
+  },
+  "formtranslationsTyping": {
+    "message": "Sisestamine…",
+    "description": "Notifies the user that typing is occuring in the form translations area."
+  },
+  "formtranslationsTranslationInProgress": {
+    "message": "Toimub tõlkimine…",
+    "description": "Notifies the user that the translation of the input text is happening."
+  },
+  "formtranslationsTranslationCompleted": {
+    "message": "Tõlkimine lõpetatud",
+    "description": "Notifies the user that the translation of the input text is completed."
   }
 }
