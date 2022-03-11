@@ -23,4 +23,4 @@ jobs:
         run: npm install jsonlint -g
 
       - name: "Lint"
-        run: jsonlint en/messages.json
+        run: jsonlint en_US/messages.json
