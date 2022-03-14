@@ -2,5 +2,111 @@
   "extensionName": {
     "message": "Firefox Translations",
     "description": "Name of the extension. Do NOT translate, keep the name in English."
+  },
+  "extensionDescription": {
+    "message": "Vertaal websites in uw browser zonder de cloud te gebruiken.",
+    "description": "Description of the extension."
+  },
+  "loadingTranslationEngine": {
+    "message": "Vertaalmachine laden…",
+    "description": "Tells the user the translation engine is being loaded."
+  },
+  "translationLoadedWithErrors": {
+    "message": "Automatische vertaling is ingeschakeld, maar we hebben fouten gevonden.",
+    "description": "Tells the user the translation engine was loaded but errors were found."
+  },
+  "checksumErrorsDownloadingEngine": {
+    "message": "We hebben checksumfouten gevonden bij het downloaden van de vertaalmachine.",
+    "description": "Tells the user there were errors downloading the translation engine."
+  },
+  "notfoundErrorsDownloadingEngine": {
+    "message": "We kunnen de te downloaden vertaalmachine niet vinden.",
+    "description": "Tells the user the translation engine could not be found to download."
+  },
+  "nodataDownloadingEngine": {
+    "message": "We hebben geen gegevens gevonden bij het downloaden van de vertaalmachine.",
+    "description": "Tells the user the translation engine had not data when downloading."
+  },
+  "translationEnabled": {
+    "message": "Automatische vertaling ingeschakeld.",
+    "description": "Tells the user the automatic translation was enabled."
+  },
+  "translationEnabledNoOT": {
+    "message": "Automatische vertaling is ingeschakeld, maar het vertalen van formulieren wordt niet ondersteund voor deze taal.",
+    "description": "Tells the user the automatic translation was enabled but form translations is not supported."
+  },
+  "timeoutDownloadingEngine": {
+    "message": "Time-out bij het downloaden van de vertaalmachine.",
+    "description": "Tells the user the download of the translation engine timed out."
+  },
+  "errorLoadingWasm": {
+    "message": "We hebben een fout gevonden bij het laden van de vertaalmachine.",
+    "description": "Tells the user we found and error loading the translation engine."
+  },
+  "statsMessage": {
+    "message": "Vertaling ingeschakeld. Woorden vertaald per seconde: $WORDSPERSECOND$.",
+    "description": "Tells the user that translation is enabled and the current performance metric of words translated per second.",
+    "placeholders": {
+      "wordspersecond": {
+        "content": "$1",
+        "example": "500"
+      }
+    }
+  },
+  "downloadProgress": {
+    "message": "Gedownload (bytes): $RECEIVEDLENGTH$ van $CONTENTLENGTH$.",
+    "description": "Tells the user the download progress of the engine artifacts.",
+    "placeholders": {
+      "receivedlength": {
+        "content": "$1",
+        "example": "100"
+      },
+      "contentlength": {
+        "content": "$2",
+        "example": "1000"
+      }
+    }
+  },
+  "displayStatisticsMessage": {
+    "message": "Statistieken tonen",
+    "description": "Option in menu to show statistics in the infobar (display is intended as a verb)."
+  },
+  "outboundTranslationsMessage": {
+    "message": "Vertalingen van formulieren inschakelen",
+    "description": "Checkbox to enable the translation of forms."
+  },
+  "qualityEstimationMessage": {
+    "message": "Kwaliteitsschatting inschakelen",
+    "description": "Checkbox to enable the quality estimation of the translation."
+  },
+  "formtranslationsReady": {
+    "message": "Gereed",
+    "description": "Notifies that the form translation is ready to be used."
+  },
+  "formtranslationsTyping": {
+    "message": "Typen…",
+    "description": "Notifies the user that typing is occuring in the form translations area."
+  },
+  "formtranslationsTranslationInProgress": {
+    "message": "Vertaling wordt uitgevoerd…",
+    "description": "Notifies the user that the translation of the input text is happening."
+  },
+  "formtranslationsTranslationCompleted": {
+    "message": "Vertaling voltooid",
+    "description": "Notifies the user that the translation of the input text is completed."
+  },
+  "formtranslationsDescription": {
+    "message": "Dit is de functie voor het vertalen van formulieren door Firefox Translations. Typ in het veld aan de linkerzijde in het <em>$navigatorLanguage$</em> en de vertaling in het <em>$pageLanguage$</em> wordt ingevoegd in het oorspronkelijke formulier. Het veld aan de rechterzijde toont ten behoeve van verificatie de tekst die is terugvertaald van het <em>$pageLanguage$</em> naar het <em>$navigatorLanguage$</em>.",
+    "description": "Usage instructions of form translations to be displayed to the user.",
+    "placeholders": {
+      "navigatorLanguage": {
+        "content": "$1",
+        "example": "English"
+      },
+      "pageLanguage": {
+        "content": "$2",
+        "example": "Portuguese"
+      }
+    }
   }
 }
