@@ -1,0 +1,18 @@
+{
+  "extensionName": {
+    "message": "Firefox Translations",
+    "description": "Name of the extension. Do NOT translate, keep the name in English."
+  },
+  "formtranslationsTyping": {
+    "message": "Skriv…",
+    "description": "Notifies the user that typing is occuring in the form translations area."
+  },
+  "formtranslationsTranslationInProgress": {
+    "message": "Omsetting i framdrift…",
+    "description": "Notifies the user that the translation of the input text is happening."
+  },
+  "formtranslationsTranslationCompleted": {
+    "message": "Omsetting fullført",
+    "description": "Notifies the user that the translation of the input text is completed."
+  }
+}
