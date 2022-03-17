@@ -2,5 +2,97 @@
   "extensionName": {
     "message": "Firefox Translations",
     "description": "Name of the extension. Do NOT translate, keep the name in English."
+  },
+  "extensionDescription": {
+    "message": "Traduisez des sites web dans votre navigateur sans avoir recours au cloud.",
+    "description": "Description of the extension."
+  },
+  "loadingTranslationEngine": {
+    "message": "Chargement du moteur de traduction…",
+    "description": "Tells the user the translation engine is being loaded."
+  },
+  "translationLoadedWithErrors": {
+    "message": "La traduction automatique est activée mais nous avons détecté des erreurs.",
+    "description": "Tells the user the translation engine was loaded but errors were found."
+  },
+  "checksumErrorsDownloadingEngine": {
+    "message": "Nous avons détecté des erreurs de somme de contrôle lors du téléchargement du moteur de traduction.",
+    "description": "Tells the user there were errors downloading the translation engine."
+  },
+  "notfoundErrorsDownloadingEngine": {
+    "message": "Impossible de trouver le moteur de traduction à télécharger.",
+    "description": "Tells the user the translation engine could not be found to download."
+  },
+  "nodataDownloadingEngine": {
+    "message": "Aucune donnée trouvée lors du téléchargement du moteur de traduction.",
+    "description": "Tells the user the translation engine had not data when downloading."
+  },
+  "translationEnabled": {
+    "message": "Traduction automatique activée.",
+    "description": "Tells the user the automatic translation was enabled."
+  },
+  "translationEnabledNoOT": {
+    "message": "La traduction automatique est activée, mais la traduction des formulaires n’est pas prise en charge pour cette langue.",
+    "description": "Tells the user the automatic translation was enabled but form translations is not supported."
+  },
+  "timeoutDownloadingEngine": {
+    "message": "Délai d’attente dépassé lors du téléchargement du moteur de traduction.",
+    "description": "Tells the user the download of the translation engine timed out."
+  },
+  "errorLoadingWasm": {
+    "message": "Une erreur s’est produite lors du chargement du moteur de traduction.",
+    "description": "Tells the user we found and error loading the translation engine."
+  },
+  "statsMessage": {
+    "message": "Traduction activée. Mots traduits par seconde : $WORDSPERSECOND$.",
+    "description": "Tells the user that translation is enabled and the current performance metric of words translated per second.",
+    "placeholders": {
+      "wordspersecond": {
+        "content": "$1",
+        "example": "500"
+      }
+    }
+  },
+  "downloadProgress": {
+    "message": "Téléchargé (octets) : $RECEIVEDLENGTH$ sur $CONTENTLENGTH$.",
+    "description": "Tells the user the download progress of the engine artifacts.",
+    "placeholders": {
+      "receivedlength": {
+        "content": "$1",
+        "example": "100"
+      },
+      "contentlength": {
+        "content": "$2",
+        "example": "1000"
+      }
+    }
+  },
+  "displayStatisticsMessage": {
+    "message": "Afficher les statistiques",
+    "description": "Option in menu to show statistics in the infobar (display is intended as a verb)."
+  },
+  "outboundTranslationsMessage": {
+    "message": "Activer la traduction des formulaires",
+    "description": "Checkbox to enable the translation of forms."
+  },
+  "qualityEstimationMessage": {
+    "message": "Activer l’estimation de la qualité",
+    "description": "Checkbox to enable the quality estimation of the translation."
+  },
+  "formtranslationsReady": {
+    "message": "Prêt",
+    "description": "Notifies that the form translation is ready to be used."
+  },
+  "formtranslationsTyping": {
+    "message": "Saisie en cours…",
+    "description": "Notifies the user that typing is occuring in the form translations area."
+  },
+  "formtranslationsTranslationInProgress": {
+    "message": "Traduction en cours…",
+    "description": "Notifies the user that the translation of the input text is happening."
+  },
+  "formtranslationsTranslationCompleted": {
+    "message": "Traduction terminée",
+    "description": "Notifies the user that the translation of the input text is completed."
   }
 }
