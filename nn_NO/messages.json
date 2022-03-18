@@ -19,6 +19,34 @@
     "message": "Vi fann kontrollsumfeil ved nedlasting av omsettingsmotoren.",
     "description": "Tells the user there were errors downloading the translation engine."
   },
+  "notfoundErrorsDownloadingEngine": {
+    "message": "Klarte ikkje å finne omsettingsmotoren for nedlasting.",
+    "description": "Tells the user the translation engine could not be found to download."
+  },
+  "nodataDownloadingEngine": {
+    "message": "Vi fann ingen data ved nedlasting av omsettingsmotoren.",
+    "description": "Tells the user the translation engine had not data when downloading."
+  },
+  "translationEnabled": {
+    "message": "Automatisk omsetting aktivert.",
+    "description": "Tells the user the automatic translation was enabled."
+  },
+  "displayStatisticsMessage": {
+    "message": "Vis statistikk",
+    "description": "Option in menu to show statistics in the infobar (display is intended as a verb)."
+  },
+  "outboundTranslationsMessage": {
+    "message": "Slå på omsetting av skjema",
+    "description": "Checkbox to enable the translation of forms."
+  },
+  "qualityEstimationMessage": {
+    "message": "Slå på kvalitetsestimering",
+    "description": "Checkbox to enable the quality estimation of the translation."
+  },
+  "formtranslationsReady": {
+    "message": "Klar",
+    "description": "Notifies that the form translation is ready to be used."
+  },
   "formtranslationsTyping": {
     "message": "Skriv…",
     "description": "Notifies the user that typing is occuring in the form translations area."
