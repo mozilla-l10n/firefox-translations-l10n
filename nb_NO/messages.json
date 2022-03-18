@@ -1,0 +1,22 @@
+{
+  "extensionName": {
+    "message": "Firefox Translations",
+    "description": "Name of the extension. Do NOT translate, keep the name in English."
+  },
+  "extensionDescription": {
+    "message": "Oversett nettsteder i nettleseren din uten å bruke skyen.",
+    "description": "Description of the extension."
+  },
+  "loadingTranslationEngine": {
+    "message": "Laster oversettelsesmotor…",
+    "description": "Tells the user the translation engine is being loaded."
+  },
+  "translationLoadedWithErrors": {
+    "message": "Automatisk oversettelse er slått på, men vi fant feil.",
+    "description": "Tells the user the translation engine was loaded but errors were found."
+  },
+  "checksumErrorsDownloadingEngine": {
+    "message": "Vi fant kontrollsumfeil ved nedlasting av oversettelsesmotoren.",
+    "description": "Tells the user there were errors downloading the translation engine."
+  }
+}
