@@ -3,6 +3,22 @@
     "message": "Firefox Translations",
     "description": "Name of the extension. Do NOT translate, keep the name in English."
   },
+  "extensionDescription": {
+    "message": "Omset nettstadar i nettlesaren din utan å bruke skya.",
+    "description": "Description of the extension."
+  },
+  "loadingTranslationEngine": {
+    "message": "Lastar omsettingsmotor…",
+    "description": "Tells the user the translation engine is being loaded."
+  },
+  "translationLoadedWithErrors": {
+    "message": "Automatisk omsetting er slått på, men vi fann feil.",
+    "description": "Tells the user the translation engine was loaded but errors were found."
+  },
+  "checksumErrorsDownloadingEngine": {
+    "message": "Vi fann kontrollsumfeil ved nedlasting av omsettingsmotoren.",
+    "description": "Tells the user there were errors downloading the translation engine."
+  },
   "formtranslationsTyping": {
     "message": "Skriv…",
     "description": "Notifies the user that typing is occuring in the form translations area."
