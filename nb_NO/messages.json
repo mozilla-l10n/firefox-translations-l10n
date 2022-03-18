@@ -19,6 +19,18 @@
     "message": "Vi fant kontrollsumfeil ved nedlasting av oversettelsesmotoren.",
     "description": "Tells the user there were errors downloading the translation engine."
   },
+  "notfoundErrorsDownloadingEngine": {
+    "message": "Kunne ikke finne oversettelsesmotoren for nedlasting.",
+    "description": "Tells the user the translation engine could not be found to download."
+  },
+  "nodataDownloadingEngine": {
+    "message": "Vi fant ingen data ved nedlasting av oversettelsesmotoren.",
+    "description": "Tells the user the translation engine had not data when downloading."
+  },
+  "translationEnabled": {
+    "message": "Automatisk oversettelse aktivert.",
+    "description": "Tells the user the automatic translation was enabled."
+  },
   "displayStatisticsMessage": {
     "message": "Vis statistikk",
     "description": "Option in menu to show statistics in the infobar (display is intended as a verb)."
@@ -26,6 +38,10 @@
   "outboundTranslationsMessage": {
     "message": "Slå på oversettelser av skjemaer",
     "description": "Checkbox to enable the translation of forms."
+  },
+  "qualityEstimationMessage": {
+    "message": "Slå på kvalitetsestimering",
+    "description": "Checkbox to enable the quality estimation of the translation."
   },
   "formtranslationsReady": {
     "message": "Klar",
