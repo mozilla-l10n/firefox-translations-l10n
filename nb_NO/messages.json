@@ -18,5 +18,29 @@
   "checksumErrorsDownloadingEngine": {
     "message": "Vi fant kontrollsumfeil ved nedlasting av oversettelsesmotoren.",
     "description": "Tells the user there were errors downloading the translation engine."
+  },
+  "displayStatisticsMessage": {
+    "message": "Vis statistikk",
+    "description": "Option in menu to show statistics in the infobar (display is intended as a verb)."
+  },
+  "outboundTranslationsMessage": {
+    "message": "Slå på oversettelser av skjemaer",
+    "description": "Checkbox to enable the translation of forms."
+  },
+  "formtranslationsReady": {
+    "message": "Klar",
+    "description": "Notifies that the form translation is ready to be used."
+  },
+  "formtranslationsTyping": {
+    "message": "Skriver…",
+    "description": "Notifies the user that typing is occuring in the form translations area."
+  },
+  "formtranslationsTranslationInProgress": {
+    "message": "Oversettelse pågår…",
+    "description": "Notifies the user that the translation of the input text is happening."
+  },
+  "formtranslationsTranslationCompleted": {
+    "message": "Oversettelse fullført",
+    "description": "Notifies the user that the translation of the input text is completed."
   }
 }
