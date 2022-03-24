@@ -94,5 +94,19 @@
   "formtranslationsTranslationCompleted": {
     "message": "Traduction terminée",
     "description": "Notifies the user that the translation of the input text is completed."
+  },
+  "formtranslationsDescription": {
+    "message": "Ceci est le formulaire de traduction de Firefox Translations. Écrivez dans le champ de gauche en <em>$navigatorLanguage$</em> et la traduction en <em>$pageLanguage$</em> sera insérée dans le formulaire original. Le champ de droite affiche le texte traduit de l’/du <em>$pageLanguage$</em> vers l’/le <em>$navigatorLanguage$</em> pour pouvoir vérifier.",
+    "description": "Usage instructions of form translations to be displayed to the user.",
+    "placeholders": {
+      "navigatorLanguage": {
+        "content": "$1",
+        "example": "English"
+      },
+      "pageLanguage": {
+        "content": "$2",
+        "example": "Portuguese"
+      }
+    }
   }
 }
