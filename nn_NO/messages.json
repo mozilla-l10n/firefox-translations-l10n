@@ -31,6 +31,42 @@
     "message": "Automatisk omsetting aktivert.",
     "description": "Tells the user the automatic translation was enabled."
   },
+  "translationEnabledNoOT": {
+    "message": "Automatisk omsetting aktivert, men omsetting av skjema er ikkje støtta for dette språket.",
+    "description": "Tells the user the automatic translation was enabled but form translations is not supported."
+  },
+  "timeoutDownloadingEngine": {
+    "message": "Tidsavbrot ved nedlasting av omsettingsmotoren.",
+    "description": "Tells the user the download of the translation engine timed out."
+  },
+  "errorLoadingWasm": {
+    "message": "Det oppstod ein feil ved lasting av omsettingsmotoren.",
+    "description": "Tells the user we found and error loading the translation engine."
+  },
+  "statsMessage": {
+    "message": "Omsetting aktivert. Omsette ord per sekund: $WORDSPERSECOND$.",
+    "description": "Tells the user that translation is enabled and the current performance metric of words translated per second.",
+    "placeholders": {
+      "wordspersecond": {
+        "content": "$1",
+        "example": "500"
+      }
+    }
+  },
+  "downloadProgress": {
+    "message": "Nedlasta (bytes): $RECEIVEDLENGTH$ av $CONTENTLENGTH$.",
+    "description": "Tells the user the download progress of the engine artifacts.",
+    "placeholders": {
+      "receivedlength": {
+        "content": "$1",
+        "example": "100"
+      },
+      "contentlength": {
+        "content": "$2",
+        "example": "1000"
+      }
+    }
+  },
   "displayStatisticsMessage": {
     "message": "Vis statistikk",
     "description": "Option in menu to show statistics in the infobar (display is intended as a verb)."
@@ -58,5 +94,19 @@
   "formtranslationsTranslationCompleted": {
     "message": "Omsetting fullført",
     "description": "Notifies the user that the translation of the input text is completed."
+  },
+  "formtranslationsDescription": {
+    "message": "Dette er funksjonen for skjemaomsettinga til Firefox Translations. Skriv inn <em>$navigatorLanguage$</em> i feltet til venstre, og omsettinga i <em>$pageLanguage$</em> vil bli sett inn i det opphavlege skjemaet. Feltet til høgre viser teksten omsett tilbake frå <em>$pageLanguage$</em> til <em>$navigatorLanguage$</em> for verifiseringsformål.",
+    "description": "Usage instructions of form translations to be displayed to the user.",
+    "placeholders": {
+      "navigatorLanguage": {
+        "content": "$1",
+        "example": "English"
+      },
+      "pageLanguage": {
+        "content": "$2",
+        "example": "Portuguese"
+      }
+    }
   }
 }
