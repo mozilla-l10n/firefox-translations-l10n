@@ -83,6 +83,10 @@
     "message": "Hotovo",
     "description": "Notifies that the form translation is ready to be used."
   },
+  "formtranslationsTyping": {
+    "message": "Psaní…",
+    "description": "Notifies the user that typing is occuring in the form translations area."
+  },
   "formtranslationsTranslationInProgress": {
     "message": "Probíhá překlad…",
     "description": "Notifies the user that the translation of the input text is happening."
@@ -90,5 +94,19 @@
   "formtranslationsTranslationCompleted": {
     "message": "Překlad dokončen",
     "description": "Notifies the user that the translation of the input text is completed."
+  },
+  "formtranslationsDescription": {
+    "message": "Toto je funkce překladu formulářů pomocí Firefoxu Translations. Do pole vlevo pište v jazyce <em>$navigatorLanguage$</em> a do původního formuláře bude vložen překlad v jazyce <em>$pageLanguage$</em>. Pole vpravo vám pro kontrolu zobrazí text přeložený zpět z jazyka <em>$pageLanguage$</em> do jazyka <em>$navigatorLanguage$</em>.",
+    "description": "Usage instructions of form translations to be displayed to the user.",
+    "placeholders": {
+      "navigatorLanguage": {
+        "content": "$1",
+        "example": "English"
+      },
+      "pageLanguage": {
+        "content": "$2",
+        "example": "Portuguese"
+      }
+    }
   }
 }
