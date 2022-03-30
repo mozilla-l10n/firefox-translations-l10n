@@ -71,6 +71,10 @@
     "message": "Mostra statistiche",
     "description": "Option in menu to show statistics in the infobar (display is intended as a verb)."
   },
+  "surveyMessage": {
+    "message": "Partecipa a un sondaggio",
+    "description": "A message to invite a user to participate in survey. It's displayed on a button so it has to be short!"
+  },
   "outboundTranslationsMessage": {
     "message": "Attiva traduzione dei moduli",
     "description": "Checkbox to enable the translation of forms."
