@@ -71,6 +71,10 @@
     "message": "Statistieken tonen",
     "description": "Option in menu to show statistics in the infobar (display is intended as a verb)."
   },
+  "surveyMessage": {
+    "message": "Deelnemen aan enquête",
+    "description": "A message to invite a user to participate in survey. It's displayed on a button so it has to be short!"
+  },
   "outboundTranslationsMessage": {
     "message": "Vertalingen van formulieren inschakelen",
     "description": "Checkbox to enable the translation of forms."
