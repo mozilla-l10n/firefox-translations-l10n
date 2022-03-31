@@ -71,6 +71,10 @@
     "message": "Kuva statistikat",
     "description": "Option in menu to show statistics in the infobar (display is intended as a verb)."
   },
+  "surveyMessage": {
+    "message": "Osale uuringus",
+    "description": "A message to invite a user to participate in survey. It's displayed on a button so it has to be short!"
+  },
   "outboundTranslationsMessage": {
     "message": "Luba vormide tõlkimine",
     "description": "Checkbox to enable the translation of forms."
@@ -108,5 +112,9 @@
         "example": "Portuguese"
       }
     }
+  },
+  "languageDefaultOption": {
+    "message": "Vali keel",
+    "description": "Default option in the language dropdown."
   }
 }
