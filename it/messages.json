@@ -112,5 +112,9 @@
         "example": "Portuguese"
       }
     }
+  },
+  "languageDefaultOption": {
+    "message": "Scegli una lingua",
+    "description": "Default option in the language dropdown."
   }
 }
