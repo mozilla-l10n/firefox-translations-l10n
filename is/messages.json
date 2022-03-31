@@ -112,5 +112,9 @@
         "example": "Portuguese"
       }
     }
+  },
+  "languageDefaultOption": {
+    "message": "Veldu tungumál",
+    "description": "Default option in the language dropdown."
   }
 }
