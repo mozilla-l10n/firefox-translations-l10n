@@ -71,6 +71,10 @@
     "message": "Statystyki",
     "description": "Option in menu to show statistics in the infobar (display is intended as a verb)."
   },
+  "surveyMessage": {
+    "message": "Wypełnij ankietę",
+    "description": "A message to invite a user to participate in survey. It's displayed on a button so it has to be short!"
+  },
   "outboundTranslationsMessage": {
     "message": "Tłumaczenie formularzy",
     "description": "Checkbox to enable the translation of forms."
@@ -108,5 +112,9 @@
         "example": "Portuguese"
       }
     }
+  },
+  "languageDefaultOption": {
+    "message": "Wybierz język",
+    "description": "Default option in the language dropdown."
   }
 }
