@@ -116,5 +116,13 @@
   "languageDefaultOption": {
     "message": "Escolha um idioma",
     "description": "Default option in the language dropdown."
+  },
+  "translateAsBrowseOn": {
+    "message": "Traduza este separador automaticamente à medida que navega",
+    "description": "Message displayed to the user (as a button), asking if they want to turn on automatic translation for the tab."
+  },
+  "translateAsBrowseOff": {
+    "message": "Desligar a tradução automática à medida que navega neste separador",
+    "description": "Message displayed to the user (as a button) to turn off automatic translation in the tab."
   }
 }
