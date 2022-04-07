@@ -119,7 +119,7 @@
     },
     "translateAsBrowseOn": {
       "message": "Translate this tab automatically as you browse?",
-      "description": "Message displayed to the user if they want to turn on automatic translation in the tab."
+      "description": "Message displayed to the user (as a button), asking if they want to turn on automatic translation for the tab."
     },
     "translateAsBrowseOff": {
       "message": "Turn off automatic translation as you browse",
