@@ -118,11 +118,11 @@
       "description": "Default option in the language dropdown."
     },
     "translateAsBrowseOn": {
-      "message": "Translate this tab automatically as you browse?",
+      "message": "Translate this tab automatically as you browse",
       "description": "Message displayed to the user (as a button), asking if they want to turn on automatic translation for the tab."
     },
     "translateAsBrowseOff": {
-      "message": "Turn off automatic translation as you browse",
+      "message": "Turn off automatic translation as you browse in this tab",
       "description": "Message displayed to the user (as a button) to turn off automatic translation in the tab."
     }
 }
