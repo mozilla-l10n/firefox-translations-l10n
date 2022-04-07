@@ -123,6 +123,6 @@
     },
     "translateAsBrowseOff": {
       "message": "Turn off automatic translation as you browse",
-      "description": "Message displayed to the user if they want to turn off automatic translation in the tab."
+      "description": "Message displayed to the user (as a button) to turn off automatic translation in the tab."
     }
 }
