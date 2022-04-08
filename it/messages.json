@@ -124,5 +124,9 @@
   "translateAsBrowseOff": {
     "message": "Disattiva traduzione automatica per questa scheda durante la navigazione",
     "description": "Message displayed to the user (as a button) to turn off automatic translation in the tab."
+  },
+  "translationProgress": {
+    "message": "Elementi in attesa di traduzione: $ELEMENTSPENDING$",
+    "description": "Number of elements still pending to be translated by the engine."
   }
 }
