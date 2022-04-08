@@ -124,5 +124,9 @@
   "translateAsBrowseOff": {
     "message": "Die Automatische Übersetzung dieses Tabs während des Surfens deaktivieren",
     "description": "Message displayed to the user (as a button) to turn off automatic translation in the tab."
+  },
+  "translationProgress": {
+    "message": "Elemente, die noch übersetzt werden müssen: $ELEMENTSPENDING$",
+    "description": "Number of elements still pending to be translated by the engine."
   }
 }
