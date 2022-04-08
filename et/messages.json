@@ -116,5 +116,13 @@
   "languageDefaultOption": {
     "message": "Vali keel",
     "description": "Default option in the language dropdown."
+  },
+  "translateAsBrowseOn": {
+    "message": "Tõlgi selle kaardi sisu lehitsemise ajal automaatselt",
+    "description": "Message displayed to the user (as a button), asking if they want to turn on automatic translation for the tab."
+  },
+  "translateAsBrowseOff": {
+    "message": "Lülita selle kaardi sisu automaatne tõlkimine lehitsemise ajal välja",
+    "description": "Message displayed to the user (as a button) to turn off automatic translation in the tab."
   }
 }
