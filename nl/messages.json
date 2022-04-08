@@ -116,5 +116,13 @@
   "languageDefaultOption": {
     "message": "Kies een taal",
     "description": "Default option in the language dropdown."
+  },
+  "translateAsBrowseOn": {
+    "message": "Dit tabblad automatisch vertalen tijdens het navigeren",
+    "description": "Message displayed to the user (as a button), asking if they want to turn on automatic translation for the tab."
+  },
+  "translateAsBrowseOff": {
+    "message": "Automatisch vertalen tijdens navigeren op dit tabblad uitschakelen",
+    "description": "Message displayed to the user (as a button) to turn off automatic translation in the tab."
   }
 }
