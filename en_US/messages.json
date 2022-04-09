@@ -134,5 +134,9 @@
           "example" : "100"
         }
       }
+    },
+    "sslIncompatibility": {
+      "message": "Translations doesn't work on non-secure (https) pages.",
+      "description":"Informs the user that the extension doesn't work on non-https pages."
     }
 }
