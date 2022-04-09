@@ -127,6 +127,12 @@
   },
   "translationProgress": {
     "message": "Elemente, die noch übersetzt werden müssen: $ELEMENTSPENDING$",
-    "description": "Number of elements still pending to be translated by the engine."
+    "description": "Number of elements still pending to be translated by the engine.",
+    "placeholders": {
+      "elementspending" : {
+        "content" : "$1",
+        "example" : "100"
+      }
+    }
   }
 }
