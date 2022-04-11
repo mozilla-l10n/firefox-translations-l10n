@@ -129,10 +129,14 @@
     "message": "Elementi in attesa di traduzione: $ELEMENTSPENDING$",
     "description": "Number of elements still pending to be translated by the engine.",
     "placeholders": {
-      "elementspending" : {
-        "content" : "$1",
-        "example" : "100"
+      "elementspending": {
+        "content": "$1",
+        "example": "100"
       }
     }
+  },
+  "tlsIncompatibility": {
+    "message": "Firefox Translations funziona solo su pagine sicure (HTTPS).",
+    "description": "Informs the user that the extension doesn't work on non-https pages."
   }
 }
