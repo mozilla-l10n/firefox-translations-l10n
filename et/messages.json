@@ -124,5 +124,15 @@
   "translateAsBrowseOff": {
     "message": "Lülita selle kaardi sisu automaatne tõlkimine lehitsemise ajal välja",
     "description": "Message displayed to the user (as a button) to turn off automatic translation in the tab."
+  },
+  "translationProgress": {
+    "message": "Tõlkimist ootavaid elemente: $ELEMENTSPENDING$",
+    "description": "Number of elements still pending to be translated by the engine.",
+    "placeholders": {
+      "elementspending": {
+        "content": "$1",
+        "example": "100"
+      }
+    }
   }
 }
