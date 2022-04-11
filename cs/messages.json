@@ -116,5 +116,27 @@
   "languageDefaultOption": {
     "message": "Vyberte jazyk",
     "description": "Default option in the language dropdown."
+  },
+  "translateAsBrowseOn": {
+    "message": "Automaticky překládat obsah tohoto panelu během prohlížení",
+    "description": "Message displayed to the user (as a button), asking if they want to turn on automatic translation for the tab."
+  },
+  "translateAsBrowseOff": {
+    "message": "Vypnut automatická překlad tohoto panelu během prohlížení",
+    "description": "Message displayed to the user (as a button) to turn off automatic translation in the tab."
+  },
+  "translationProgress": {
+    "message": "Počet prvků, které zbývá přeložit: $ELEMENTSPENDING$",
+    "description": "Number of elements still pending to be translated by the engine.",
+    "placeholders": {
+      "elementspending": {
+        "content": "$1",
+        "example": "100"
+      }
+    }
+  },
+  "tlsIncompatibility": {
+    "message": "Doplněk Firefox Translations funguje jenom na stránkách zabezpečených pomocí HTTPS.",
+    "description": "Informs the user that the extension doesn't work on non-https pages."
   }
 }
