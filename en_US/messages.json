@@ -135,7 +135,7 @@
         }
       }
     },
-    "sslIncompatibility": {
+    "tlsIncompatibility": {
       "message": "Translations only works on secure (HTTPS) pages.",
       "description":"Informs the user that the extension doesn't work on non-https pages."
     }
