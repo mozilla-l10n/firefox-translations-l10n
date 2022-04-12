@@ -134,5 +134,9 @@
         "example": "100"
       }
     }
+  },
+  "tlsIncompatibility": {
+    "message": "Firefox Translations sólo funciona en páginas seguras (HTTPS).",
+    "description": "Informs the user that the extension doesn't work on non-https pages."
   }
 }
