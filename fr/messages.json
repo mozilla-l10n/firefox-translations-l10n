@@ -117,6 +117,14 @@
     "message": "Choisissez une langue",
     "description": "Default option in the language dropdown."
   },
+  "translateAsBrowseOn": {
+    "message": "Traduire cet onglet automatiquement pendant la navigation",
+    "description": "Message displayed to the user (as a button), asking if they want to turn on automatic translation for the tab."
+  },
+  "translateAsBrowseOff": {
+    "message": "Désactiver la traduction automatique de cet onglet pendant la navigation",
+    "description": "Message displayed to the user (as a button) to turn off automatic translation in the tab."
+  },
   "translationProgress": {
     "message": "Éléments en attente de traduction : $ELEMENTSPENDING$",
     "description": "Number of elements still pending to be translated by the engine.",
@@ -126,5 +134,9 @@
         "example": "100"
       }
     }
+  },
+  "tlsIncompatibility": {
+    "message": "Firefox Translations ne fonctionne que sur les pages sécurisées (HTTPS).",
+    "description": "Informs the user that the extension doesn't work on non-https pages."
   }
 }
