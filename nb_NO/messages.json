@@ -116,5 +116,27 @@
   "languageDefaultOption": {
     "message": "Velg et språk",
     "description": "Default option in the language dropdown."
+  },
+  "translateAsBrowseOn": {
+    "message": "Oversett denne fanen automatisk mens du surfer",
+    "description": "Message displayed to the user (as a button), asking if they want to turn on automatic translation for the tab."
+  },
+  "translateAsBrowseOff": {
+    "message": "Slå av automatisk oversettelse mens du surfer i denne fanen",
+    "description": "Message displayed to the user (as a button) to turn off automatic translation in the tab."
+  },
+  "translationProgress": {
+    "message": "Elementer som venter på å oversettes: $ELEMENTSPENDING$",
+    "description": "Number of elements still pending to be translated by the engine.",
+    "placeholders": {
+      "elementspending": {
+        "content": "$1",
+        "example": "100"
+      }
+    }
+  },
+  "tlsIncompatibility": {
+    "message": "Firefox Translations fungerer bare på sikre (HTTPS) sider.",
+    "description": "Informs the user that the extension doesn't work on non-https pages."
   }
 }
