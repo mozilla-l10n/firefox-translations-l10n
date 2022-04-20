@@ -116,5 +116,27 @@
   "languageDefaultOption": {
     "message": "Выберите язык",
     "description": "Default option in the language dropdown."
+  },
+  "translateAsBrowseOn": {
+    "message": "Автоперевод текста на вкладке",
+    "description": "Message displayed to the user (as a button), asking if they want to turn on automatic translation for the tab."
+  },
+  "translateAsBrowseOff": {
+    "message": "Отключить автоперевод текста на вкладке",
+    "description": "Message displayed to the user (as a button) to turn off automatic translation in the tab."
+  },
+  "translationProgress": {
+    "message": "Элементы в очереди на перевод: $ELEMENTSPENDING$",
+    "description": "Number of elements still pending to be translated by the engine.",
+    "placeholders": {
+      "elementspending": {
+        "content": "$1",
+        "example": "100"
+      }
+    }
+  },
+  "tlsIncompatibility": {
+    "message": "Firefox Translations работает только на защищённых (HTTPS) страницах.",
+    "description": "Informs the user that the extension doesn't work on non-https pages."
   }
 }
