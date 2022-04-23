@@ -112,5 +112,31 @@
         "example": "Portuguese"
       }
     }
+  },
+  "languageDefaultOption": {
+    "message": "Vel eit språk",
+    "description": "Default option in the language dropdown."
+  },
+  "translateAsBrowseOn": {
+    "message": "Omset denne fana automatisk medan du surfar",
+    "description": "Message displayed to the user (as a button), asking if they want to turn on automatic translation for the tab."
+  },
+  "translateAsBrowseOff": {
+    "message": "Slå av automatisk omsetting medan du surfar i denne fana",
+    "description": "Message displayed to the user (as a button) to turn off automatic translation in the tab."
+  },
+  "translationProgress": {
+    "message": "Element som ventar på å bli omsette: $ELEMENTSPENDING$",
+    "description": "Number of elements still pending to be translated by the engine.",
+    "placeholders": {
+      "elementspending": {
+        "content": "$1",
+        "example": "100"
+      }
+    }
+  },
+  "tlsIncompatibility": {
+    "message": "Firefox Translations fungerer berre på sikre (HTTPS-) sider.",
+    "description": "Informs the user that the extension doesn't work on non-https pages."
   }
 }
