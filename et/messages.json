@@ -134,5 +134,9 @@
         "example": "100"
       }
     }
+  },
+  "tlsIncompatibility": {
+    "message": "Firefox Translations töötab ainult turvalistel (HTTPS) lehtedel.",
+    "description": "Informs the user that the extension doesn't work on non-https pages."
   }
 }
