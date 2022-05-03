@@ -138,5 +138,21 @@
   "tlsIncompatibility": {
     "message": "Firefox-þýðingar virka aðeins á öruggum (HTTPS) síðum.",
     "description": "Informs the user that the extension doesn't work on non-https pages."
+  },
+  "datacollectionConsentPageTitle": {
+    "message": "Leyfa Firefox þýðingum að senda tæknilegar og notkunarupplýsingar til Mozilla?",
+    "description": "Header of the data collection consent page"
+  },
+  "datacollectionConsentPageDescription": {
+    "message": "Þetta innifelur hæsta stigs notendagagnvirkni og villuskýrslur. Breytingar á þessu er hægt að gera hvenær sem er í stillingum. Gögn eru geymd á öruggan hátt og án persónugreinanlegra upplýsinga.",
+    "description": "Description of the data collection consent page"
+  },
+  "datacollectionConsentPageUserInteractionOption": {
+    "message": "Tilkynna um hástigs gagnvirkni notanda",
+    "description": "Title for the option that allows Mozilla to collect high level user-interaction"
+  },
+  "datacollectionConsentPageErrorsOption": {
+    "message": "Tilkynna villur",
+    "description": "Title for the option that allows Mozilla to collect error reports"
   }
 }
