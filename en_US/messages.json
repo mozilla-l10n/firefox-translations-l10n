@@ -144,7 +144,7 @@
       "description": "Header of the data collection consent page"
     },
     "datacollectionConsentPageDescription": {
-      "message": "This includes high-level user interaction and error reports. Changes to this setting can be made any time in preferences. Data is stored securely and without personally identifying information.",
+      "message": "This includes high-level user interaction and error reports. Changes to this setting can be made any time in settings. Data is stored securely and without personally identifying information.",
       "description": "Description of the data collection consent page"
     },
     "datacollectionConsentPageUserInteractionOption": {
