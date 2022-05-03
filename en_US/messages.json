@@ -138,5 +138,21 @@
     "tlsIncompatibility": {
       "message": "Firefox Translations only works on secure (HTTPS) pages.",
       "description":"Informs the user that the extension doesn't work on non-https pages."
+    },
+    "datacollectionConsentPageTitle": {
+      "message": "Allow Firefox Translations to send technical and interaction data to Mozilla?",
+      "description": "Header of the data collection consent page"
+    },
+    "datacollectionConsentPageDescription": {
+      "message": "This includes high-level user interaction and error reports. Changes to this setting can be made any time in preferences. Data is stored securely and without personally identifying information.",
+      "description": "Description of the data collection consent page"
+    },
+    "datacollectionConsentPageUserInteractionOption": {
+      "message": "Report high-level user interaction",
+      "description": "Title for the option that allows Mozilla to collect high level user-interaction"
+    },
+    "datacollectionConsentPageErrorsOption": {
+      "message": "Report errors",
+      "description": "Title for the option that allows Mozilla to collect error reports"
     }
 }
