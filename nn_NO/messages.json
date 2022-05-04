@@ -138,5 +138,9 @@
   "tlsIncompatibility": {
     "message": "Firefox Translations fungerer berre på sikre (HTTPS-) sider.",
     "description": "Informs the user that the extension doesn't work on non-https pages."
+  },
+  "datacollectionConsentPageErrorsOption": {
+    "message": "Rapporter feil",
+    "description": "Title for the option that allows Mozilla to collect error reports"
   }
 }
