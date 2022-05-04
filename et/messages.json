@@ -138,5 +138,21 @@
   "tlsIncompatibility": {
     "message": "Firefox Translations töötab ainult turvalistel (HTTPS) lehtedel.",
     "description": "Informs the user that the extension doesn't work on non-https pages."
+  },
+  "datacollectionConsentPageTitle": {
+    "message": "Kas lubada lisal Firefox Translations saata tehnilisi ja interaktsiooniandmeid Mozillale?",
+    "description": "Header of the data collection consent page"
+  },
+  "datacollectionConsentPageDescription": {
+    "message": "See hõlmab kõrgetasemelisi kasutaja interaktsioone ja vearaporteid. Seda sätet saab igal ajal sätete alt muuta. Andmed on salvestatud turvaliselt ja ilma isikut tuvastava teabeta.",
+    "description": "Description of the data collection consent page"
+  },
+  "datacollectionConsentPageUserInteractionOption": {
+    "message": "Antakse teada kõrgetasemelistest kasutaja interaktsioonidest",
+    "description": "Title for the option that allows Mozilla to collect high level user-interaction"
+  },
+  "datacollectionConsentPageErrorsOption": {
+    "message": "Antakse teada vigadest",
+    "description": "Title for the option that allows Mozilla to collect error reports"
   }
 }
