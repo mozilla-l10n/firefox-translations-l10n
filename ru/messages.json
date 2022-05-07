@@ -142,5 +142,17 @@
   "datacollectionConsentPageTitle": {
     "message": "Разрешить Firefox Translations отправлять технические данные и данные о взаимодействии в Mozilla?",
     "description": "Header of the data collection consent page"
+  },
+  "datacollectionConsentPageDescription": {
+    "message": "Это включает в себя высокоуровневое взаимодействие с пользователем и отчеты об ошибках. Изменить этот параметр можно в настройках в любое время. Данные хранятся защищённо и не содержат информации идентифицирующей личность.",
+    "description": "Description of the data collection consent page"
+  },
+  "datacollectionConsentPageUserInteractionOption": {
+    "message": "Отправлять данные о высокоуровневым взаимодействим с пользователем",
+    "description": "Title for the option that allows Mozilla to collect high level user-interaction"
+  },
+  "datacollectionConsentPageErrorsOption": {
+    "message": "Отправлять отчёты об ошибках",
+    "description": "Title for the option that allows Mozilla to collect error reports"
   }
 }
