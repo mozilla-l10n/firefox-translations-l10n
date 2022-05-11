@@ -138,5 +138,13 @@
   "tlsIncompatibility": {
     "message": "O Firefox Translations só funciona em páginas seguras (HTTPS).",
     "description": "Informs the user that the extension doesn't work on non-https pages."
+  },
+  "datacollectionConsentPageTitle": {
+    "message": "Permitir que o Firefox Translations envie dados técnicos e de interação para a Mozilla?",
+    "description": "Header of the data collection consent page"
+  },
+  "datacollectionConsentPageErrorsOption": {
+    "message": "Relatar erros",
+    "description": "Title for the option that allows Mozilla to collect error reports"
   }
 }
