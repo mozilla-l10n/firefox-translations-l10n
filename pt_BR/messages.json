@@ -143,6 +143,14 @@
     "message": "Permitir que o Firefox Translations envie dados técnicos e de interação para a Mozilla?",
     "description": "Header of the data collection consent page"
   },
+  "datacollectionConsentPageDescription": {
+    "message": "Isso inclui interação de alto nível do usuário e relatórios de erros. Essas configurações podem ser alteradas quando o usuário quiser. Os dados são armazenados de forma segura e sem informações de identificação pessoal.",
+    "description": "Description of the data collection consent page"
+  },
+  "datacollectionConsentPageUserInteractionOption": {
+    "message": "Relatar interação de alto nível do usuário",
+    "description": "Title for the option that allows Mozilla to collect high level user-interaction"
+  },
   "datacollectionConsentPageErrorsOption": {
     "message": "Relatar erros",
     "description": "Title for the option that allows Mozilla to collect error reports"
