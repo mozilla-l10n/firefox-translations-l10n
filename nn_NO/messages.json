@@ -139,6 +139,10 @@
     "message": "Firefox Translations fungerer berre på sikre (HTTPS-) sider.",
     "description": "Informs the user that the extension doesn't work on non-https pages."
   },
+  "datacollectionConsentPageUserInteractionOption": {
+    "message": "Rapporter brukarinteraksjon på høgt nivå",
+    "description": "Title for the option that allows Mozilla to collect high level user-interaction"
+  },
   "datacollectionConsentPageErrorsOption": {
     "message": "Rapporter feil",
     "description": "Title for the option that allows Mozilla to collect error reports"
