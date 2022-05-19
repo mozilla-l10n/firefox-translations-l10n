@@ -140,7 +140,7 @@
     "description": "Informs the user that the extension doesn't work on non-https pages."
   },
   "datacollectionConsentPageTitle": {
-    "message": "Tillat Firefox Translations å sende tekniske- og interaksjonsdata til Mozilla?",
+    "message": "Tillate Firefox Translations å sende tekniske- og interaksjonsdata til Mozilla?",
     "description": "Header of the data collection consent page"
   },
   "datacollectionConsentPageDescription": {
