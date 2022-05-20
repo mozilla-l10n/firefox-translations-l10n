@@ -79,10 +79,6 @@
     "message": "Attiva traduzione dei moduli",
     "description": "Checkbox to enable the translation of forms."
   },
-  "qualityEstimationMessage": {
-    "message": "Attiva valutazione della qualità",
-    "description": "Checkbox to enable the quality estimation of the translation."
-  },
   "formtranslationsReady": {
     "message": "Pronto",
     "description": "Notifies that the form translation is ready to be used."
@@ -154,5 +150,9 @@
   "datacollectionConsentPageErrorsOption": {
     "message": "Invia errori",
     "description": "Title for the option that allows Mozilla to collect error reports"
+  },
+  "errorHighlightingMessage": {
+    "message": "Evidenzia potenziali errori in rosso",
+    "description": "Checkbox to highlight translation errors in the page in red."
   }
 }
