@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "Firefox Translations",
+    "description": "Name of the extension. Do NOT translate, keep the name in English."
+  },
+  "extensionDescription": {
+    "message": "Traduce sitios web en tu navegador sin usar la nube.",
+    "description": "Description of the extension."
+  },
+  "loadingTranslationEngine": {
+    "message": "Cargando motor de traducción…",
+    "description": "Tells the user the translation engine is being loaded."
+  }
+}
