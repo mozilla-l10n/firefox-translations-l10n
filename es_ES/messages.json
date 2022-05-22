@@ -10,5 +10,119 @@
   "loadingTranslationEngine": {
     "message": "Cargando motor de traducción…",
     "description": "Tells the user the translation engine is being loaded."
+  },
+  "translationLoadedWithErrors": {
+    "message": "La traducción automática está activada pero hemos encontrado errores.",
+    "description": "Tells the user the translation engine was loaded but errors were found."
+  },
+  "checksumErrorsDownloadingEngine": {
+    "message": "Encontramos errores al calcular el chequeo de comprobación del motor de traducción.",
+    "description": "Tells the user there were errors downloading the translation engine."
+  },
+  "notfoundErrorsDownloadingEngine": {
+    "message": "No hemos podido encontrar el motor de traducción para descargar.",
+    "description": "Tells the user the translation engine could not be found to download."
+  },
+  "nodataDownloadingEngine": {
+    "message": "No encontramos datos al descargar el motor de traducción.",
+    "description": "Tells the user the translation engine had not data when downloading."
+  },
+  "translationEnabled": {
+    "message": "Traducción automática activada.",
+    "description": "Tells the user the automatic translation was enabled."
+  },
+  "translationEnabledNoOT": {
+    "message": "La traducción automática está activada pero la traducción de los formularios no es compatible con este idioma.",
+    "description": "Tells the user the automatic translation was enabled but form translations is not supported."
+  },
+  "timeoutDownloadingEngine": {
+    "message": "Se ha agotado el tiempo de descarga del motor de traducción.",
+    "description": "Tells the user the download of the translation engine timed out."
+  },
+  "errorLoadingWasm": {
+    "message": "Hemos encontrado un error al cargar el motor de traducción.",
+    "description": "Tells the user we found and error loading the translation engine."
+  },
+  "statsMessage": {
+    "message": "Traducción activada. Palabras traducidas por segundo: $WORDSPERSECOND$.",
+    "description": "Tells the user that translation is enabled and the current performance metric of words translated per second.",
+    "placeholders": {
+      "wordspersecond": {
+        "content": "$1",
+        "example": "500"
+      }
+    }
+  },
+  "downloadProgress": {
+    "message": "Descargado (bytes): $RECEIVEDLENGTH$ de $CONTENTLENGTH$.",
+    "description": "Tells the user the download progress of the engine artifacts.",
+    "placeholders": {
+      "receivedlength": {
+        "content": "$1",
+        "example": "100"
+      },
+      "contentlength": {
+        "content": "$2",
+        "example": "1000"
+      }
+    }
+  },
+  "displayStatisticsMessage": {
+    "message": "Mostrar estadísticas",
+    "description": "Option in menu to show statistics in the infobar (display is intended as a verb)."
+  },
+  "surveyMessage": {
+    "message": "Participa en la encuesta",
+    "description": "A message to invite a user to participate in survey. It's displayed on a button so it has to be short!"
+  },
+  "outboundTranslationsMessage": {
+    "message": "Activar traducción de formularios",
+    "description": "Checkbox to enable the translation of forms."
+  },
+  "formtranslationsReady": {
+    "message": "Listo",
+    "description": "Notifies that the form translation is ready to be used."
+  },
+  "formtranslationsTyping": {
+    "message": "Escribiendo…",
+    "description": "Notifies the user that typing is occuring in the form translations area."
+  },
+  "formtranslationsTranslationInProgress": {
+    "message": "Traducción en curso…",
+    "description": "Notifies the user that the translation of the input text is happening."
+  },
+  "formtranslationsTranslationCompleted": {
+    "message": "Traducción completa",
+    "description": "Notifies the user that the translation of the input text is completed."
+  },
+  "languageDefaultOption": {
+    "message": "Selecciona un idioma",
+    "description": "Default option in the language dropdown."
+  },
+  "translateAsBrowseOn": {
+    "message": "Traducir esta pestaña automáticamente durante la navegación",
+    "description": "Message displayed to the user (as a button), asking if they want to turn on automatic translation for the tab."
+  },
+  "translateAsBrowseOff": {
+    "message": "Desactivar la traducción automática en esta pestaña durante la navegación",
+    "description": "Message displayed to the user (as a button) to turn off automatic translation in the tab."
+  },
+  "translationProgress": {
+    "message": "Elementos pendientes de traducir: $ELEMENTSPENDING$",
+    "description": "Number of elements still pending to be translated by the engine.",
+    "placeholders": {
+      "elementspending": {
+        "content": "$1",
+        "example": "100"
+      }
+    }
+  },
+  "tlsIncompatibility": {
+    "message": "Firefox Translations solo funciona en páginas seguras (HTTPS).",
+    "description": "Informs the user that the extension doesn't work on non-https pages."
+  },
+  "datacollectionConsentPageTitle": {
+    "message": "¿Permitir que Firefox Translations envíe datos técnicos y de interacción a Mozilla?",
+    "description": "Header of the data collection consent page"
   }
 }
