@@ -79,10 +79,6 @@
     "message": "Slå på omsetting av skjema",
     "description": "Checkbox to enable the translation of forms."
   },
-  "qualityEstimationMessage": {
-    "message": "Slå på kvalitetsestimering",
-    "description": "Checkbox to enable the quality estimation of the translation."
-  },
   "formtranslationsReady": {
     "message": "Klar",
     "description": "Notifies that the form translation is ready to be used."
@@ -138,6 +134,14 @@
   "tlsIncompatibility": {
     "message": "Firefox Translations fungerer berre på sikre (HTTPS-) sider.",
     "description": "Informs the user that the extension doesn't work on non-https pages."
+  },
+  "datacollectionConsentPageTitle": {
+    "message": "Tillate Firefox Translations å sende tekniske- og interaksjonsdata til Mozilla?",
+    "description": "Header of the data collection consent page"
+  },
+  "datacollectionConsentPageDescription": {
+    "message": "Dette inkluderer brukarinteraksjon på høgt nivå og feilrapportar. Endringar i denne innstillinga kan gjerast når som helst i innstillingane. Data vert lagra sikkert og utan personleg identifiserande informasjon.",
+    "description": "Description of the data collection consent page"
   },
   "datacollectionConsentPageUserInteractionOption": {
     "message": "Rapporter brukarinteraksjon på høgt nivå",
