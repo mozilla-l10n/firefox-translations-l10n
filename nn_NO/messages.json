@@ -150,5 +150,9 @@
   "datacollectionConsentPageErrorsOption": {
     "message": "Rapporter feil",
     "description": "Title for the option that allows Mozilla to collect error reports"
+  },
+  "errorHighlightingMessage": {
+    "message": "Uthev moglege feil i raudt",
+    "description": "Checkbox to highlight translation errors in the page in red."
   }
 }
