@@ -18,5 +18,25 @@
   "checksumErrorsDownloadingEngine": {
     "message": "Има грешка в контролната сума при изтегляне на преводите.",
     "description": "Tells the user there were errors downloading the translation engine."
+  },
+  "notfoundErrorsDownloadingEngine": {
+    "message": "Не са намерени преводи, които да бъдат изтеглени.",
+    "description": "Tells the user the translation engine could not be found to download."
+  },
+  "translationEnabled": {
+    "message": "Автоматичният превод е включен.",
+    "description": "Tells the user the automatic translation was enabled."
+  },
+  "translationEnabledNoOT": {
+    "message": "Автоматичният превод е включен, но езикът не поддържа превод на формуляри.",
+    "description": "Tells the user the automatic translation was enabled but form translations is not supported."
+  },
+  "timeoutDownloadingEngine": {
+    "message": "Времето за изчакване на изтегляне на преводите изтече.",
+    "description": "Tells the user the download of the translation engine timed out."
+  },
+  "errorLoadingWasm": {
+    "message": "Грешка при зареждане на преводите.",
+    "description": "Tells the user we found and error loading the translation engine."
   }
 }
