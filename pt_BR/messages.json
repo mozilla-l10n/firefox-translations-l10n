@@ -72,11 +72,11 @@
     "description": "Option in menu to show statistics in the infobar (display is intended as a verb)."
   },
   "surveyMessage": {
-    "message": "Participe da pesquisa de opinião",
+    "message": "Participar da pesquisa de opinião",
     "description": "A message to invite a user to participate in survey. It's displayed on a button so it has to be short!"
   },
   "outboundTranslationsMessage": {
-    "message": "Ativar traduções de formulários",
+    "message": "Ativar tradução de formulários",
     "description": "Checkbox to enable the translation of forms."
   },
   "formtranslationsReady": {
@@ -114,11 +114,11 @@
     "description": "Default option in the language dropdown."
   },
   "translateAsBrowseOn": {
-    "message": "Traduzir esta aba automaticamente à medida que navega",
+    "message": "Traduzir esta aba automaticamente à medida que você navega",
     "description": "Message displayed to the user (as a button), asking if they want to turn on automatic translation for the tab."
   },
   "translateAsBrowseOff": {
-    "message": "Desativar a tradução automática à medida que navega nesta aba",
+    "message": "Desativar a tradução automática à medida que você navega nesta aba",
     "description": "Message displayed to the user (as a button) to turn off automatic translation in the tab."
   },
   "translationProgress": {
