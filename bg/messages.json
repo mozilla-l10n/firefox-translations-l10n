@@ -1,0 +1,22 @@
+{
+  "extensionName": {
+    "message": "Firefox Translations",
+    "description": "Name of the extension. Do NOT translate, keep the name in English."
+  },
+  "extensionDescription": {
+    "message": "Превежда страниците в четеца без използване на облачна услуга.",
+    "description": "Description of the extension."
+  },
+  "loadingTranslationEngine": {
+    "message": "Зареждане на преводи…",
+    "description": "Tells the user the translation engine is being loaded."
+  },
+  "translationLoadedWithErrors": {
+    "message": "Автоматичният превод е включен, но има грешки.",
+    "description": "Tells the user the translation engine was loaded but errors were found."
+  },
+  "checksumErrorsDownloadingEngine": {
+    "message": "Има грешка в контролната сума при изтегляне на преводите.",
+    "description": "Tells the user there were errors downloading the translation engine."
+  }
+}
