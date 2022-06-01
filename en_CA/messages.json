@@ -79,10 +79,6 @@
     "message": "Enable translations of forms",
     "description": "Checkbox to enable the translation of forms."
   },
-  "qualityEstimationMessage": {
-    "message": "Enable quality estimation",
-    "description": "Checkbox to enable the quality estimation of the translation."
-  },
   "formtranslationsReady": {
     "message": "Ready",
     "description": "Notifies that the form translation is ready to be used."
@@ -138,5 +134,17 @@
   "tlsIncompatibility": {
     "message": "Firefox Translations only works on secure (HTTPS) pages.",
     "description": "Informs the user that the extension doesn't work on non-https pages."
+  },
+  "datacollectionConsentPageUserInteractionOption": {
+    "message": "Report high-level user interaction",
+    "description": "Title for the option that allows Mozilla to collect high level user-interaction"
+  },
+  "datacollectionConsentPageErrorsOption": {
+    "message": "Report errors",
+    "description": "Title for the option that allows Mozilla to collect error reports"
+  },
+  "errorHighlightingMessage": {
+    "message": "Highlight potential errors in red",
+    "description": "Checkbox to highlight translation errors in the page in red."
   }
 }
