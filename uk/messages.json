@@ -6,5 +6,93 @@
   "extensionDescription": {
     "message": "Перекладайте вебсайти у своєму браузері не використовуючи хмару.",
     "description": "Description of the extension."
+  },
+  "loadingTranslationEngine": {
+    "message": "Завантаження рушія перекладу…",
+    "description": "Tells the user the translation engine is being loaded."
+  },
+  "translationLoadedWithErrors": {
+    "message": "Автоматичний переклад увімкнено, але ми знайшли помилки.",
+    "description": "Tells the user the translation engine was loaded but errors were found."
+  },
+  "checksumErrorsDownloadingEngine": {
+    "message": "Ми виявили помилки контрольної суми під час завантаження рушія перекладу.",
+    "description": "Tells the user there were errors downloading the translation engine."
+  },
+  "notfoundErrorsDownloadingEngine": {
+    "message": "Нам не вдалося знайти рушій перекладу для завантаження.",
+    "description": "Tells the user the translation engine could not be found to download."
+  },
+  "nodataDownloadingEngine": {
+    "message": "Ми не знайшли жодних даних під час завантаження рушія перекладу.",
+    "description": "Tells the user the translation engine had not data when downloading."
+  },
+  "translationEnabled": {
+    "message": "Автоматичний переклад увімкнено.",
+    "description": "Tells the user the automatic translation was enabled."
+  },
+  "translationEnabledNoOT": {
+    "message": "Автоматичний переклад увімкнено, але переклад форм цією мовою не підтримується.",
+    "description": "Tells the user the automatic translation was enabled but form translations is not supported."
+  },
+  "timeoutDownloadingEngine": {
+    "message": "Час очікування завантаження рушія перекладу.",
+    "description": "Tells the user the download of the translation engine timed out."
+  },
+  "errorLoadingWasm": {
+    "message": "Ми виявили помилку під час завантаження рушія перекладу.",
+    "description": "Tells the user we found and error loading the translation engine."
+  },
+  "statsMessage": {
+    "message": "Переклад увімкнено. Перекладено слів за секунду: $WORDSPERSECOND$.",
+    "description": "Tells the user that translation is enabled and the current performance metric of words translated per second.",
+    "placeholders": {
+      "wordspersecond": {
+        "content": "$1",
+        "example": "500"
+      }
+    }
+  },
+  "downloadProgress": {
+    "message": "Завантажено (байтів): $RECEIVEDLENGTH$ із $CONTENTLENGTH$.",
+    "description": "Tells the user the download progress of the engine artifacts.",
+    "placeholders": {
+      "receivedlength": {
+        "content": "$1",
+        "example": "100"
+      },
+      "contentlength": {
+        "content": "$2",
+        "example": "1000"
+      }
+    }
+  },
+  "displayStatisticsMessage": {
+    "message": "Показати статистику",
+    "description": "Option in menu to show statistics in the infobar (display is intended as a verb)."
+  },
+  "surveyMessage": {
+    "message": "Візьміть участь в опитуванні",
+    "description": "A message to invite a user to participate in survey. It's displayed on a button so it has to be short!"
+  },
+  "outboundTranslationsMessage": {
+    "message": "Увімкнути переклад форм",
+    "description": "Checkbox to enable the translation of forms."
+  },
+  "formtranslationsReady": {
+    "message": "Готово",
+    "description": "Notifies that the form translation is ready to be used."
+  },
+  "formtranslationsTyping": {
+    "message": "Введення…",
+    "description": "Notifies the user that typing is occuring in the form translations area."
+  },
+  "formtranslationsTranslationInProgress": {
+    "message": "Виконується переклад…",
+    "description": "Notifies the user that the translation of the input text is happening."
+  },
+  "formtranslationsTranslationCompleted": {
+    "message": "Переклад завершено",
+    "description": "Notifies the user that the translation of the input text is completed."
   }
 }
