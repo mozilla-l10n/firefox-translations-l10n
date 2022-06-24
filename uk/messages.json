@@ -94,5 +94,65 @@
   "formtranslationsTranslationCompleted": {
     "message": "Переклад завершено",
     "description": "Notifies the user that the translation of the input text is completed."
+  },
+  "formtranslationsDescription": {
+    "message": "Це функція перекладу форм від Firefox Translations. Введіть у полі ліворуч <em>$navigatorLanguage$</em>, і переклад мовою <em>$pageLanguage$</em> буде вставлено в оригінальну форму. У полі праворуч показано текст, перекладений з <em>$pageLanguage$</em> мовою <em>$navigatorLanguage$</em> для перевірки.",
+    "description": "Usage instructions of form translations to be displayed to the user.",
+    "placeholders": {
+      "navigatorLanguage": {
+        "content": "$1",
+        "example": "English"
+      },
+      "pageLanguage": {
+        "content": "$2",
+        "example": "Portuguese"
+      }
+    }
+  },
+  "languageDefaultOption": {
+    "message": "Вибрати мову",
+    "description": "Default option in the language dropdown."
+  },
+  "translateAsBrowseOn": {
+    "message": "Перекладати цю вкладку автоматично під час перегляду",
+    "description": "Message displayed to the user (as a button), asking if they want to turn on automatic translation for the tab."
+  },
+  "translateAsBrowseOff": {
+    "message": "Вимкнути автоматичний переклад під час перегляду на цій вкладці",
+    "description": "Message displayed to the user (as a button) to turn off automatic translation in the tab."
+  },
+  "translationProgress": {
+    "message": "Елементи, які очікують перекладу: $ELEMENTSPENDING$",
+    "description": "Number of elements still pending to be translated by the engine.",
+    "placeholders": {
+      "elementspending": {
+        "content": "$1",
+        "example": "100"
+      }
+    }
+  },
+  "tlsIncompatibility": {
+    "message": "Firefox Translations працює лише на захищених (HTTPS) сторінках.",
+    "description": "Informs the user that the extension doesn't work on non-https pages."
+  },
+  "datacollectionConsentPageTitle": {
+    "message": "Дозволити Firefox Translations надсилати технічні дані та дані взаємодії в Mozilla?",
+    "description": "Header of the data collection consent page"
+  },
+  "datacollectionConsentPageDescription": {
+    "message": "Це включає взаємодію високого рівня з користувачем та звіти про помилки. Змінити це налаштування можна будь-коли в налаштуваннях. Дані зберігаються захищеними та знеособленими.",
+    "description": "Description of the data collection consent page"
+  },
+  "datacollectionConsentPageUserInteractionOption": {
+    "message": "Повідомити про взаємодію високого рівня з користувачем",
+    "description": "Title for the option that allows Mozilla to collect high level user-interaction"
+  },
+  "datacollectionConsentPageErrorsOption": {
+    "message": "Повідомити про помилки",
+    "description": "Title for the option that allows Mozilla to collect error reports"
+  },
+  "errorHighlightingMessage": {
+    "message": "Позначте потенційні помилки червоним кольором",
+    "description": "Checkbox to highlight translation errors in the page in red."
   }
 }
