@@ -1,13 +1,19 @@
 name: Reference linter
 on:
   push:
-    paths: ['en_US/**.json' ]
-    branches: [ main ]
+    paths:
+      - 'en_US/**.json'
+      - '.github/workflows/reference_lint.yaml'
+    branches:
+      - main
   pull_request:
-    paths: ['en_US/**.json' ]
-    branches: [ main ]
+    paths:
+      - 'en_US/**.json'
+      - '.github/workflows/reference_lint.yaml'
+    branches:
+      - main
 jobs:
-  update:
+  linter:
     runs-on: ubuntu-latest
     steps:
       - name: Clone repository
