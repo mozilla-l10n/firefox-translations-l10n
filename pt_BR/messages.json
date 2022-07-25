@@ -4,7 +4,7 @@
     "description": "Name of the extension. Do NOT translate, keep the name in English."
   },
   "extensionDescription": {
-    "message": "Traduza sites em seu navegador sem usar a nuvem.",
+    "message": "Traduza sites em seu navegador sem acessar a internet.",
     "description": "Description of the extension."
   },
   "loadingTranslationEngine": {
@@ -76,7 +76,7 @@
     "description": "A message to invite a user to participate in survey. It's displayed on a button so it has to be short!"
   },
   "outboundTranslationsMessage": {
-    "message": "Ativar tradução de formulários",
+    "message": "Traduzir formulários",
     "description": "Checkbox to enable the translation of forms."
   },
   "formtranslationsReady": {
@@ -152,7 +152,7 @@
     "description": "Title for the option that allows Mozilla to collect error reports"
   },
   "errorHighlightingMessage": {
-    "message": "Destacar possíveis erros em vermelho",
+    "message": "Destacar erros em vermelho",
     "description": "Checkbox to highlight translation errors in the page in red."
   }
 }
