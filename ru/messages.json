@@ -154,5 +154,9 @@
   "errorHighlightingMessage": {
     "message": "Выделите потенциальные ошибки красным",
     "description": "Checkbox to highlight translation errors in the page in red."
+  },
+  "showChangelogOption": {
+    "message": "Отображать список изменений при обновлении",
+    "description": "Title for the option that toggles if the changelog is shown on an extension update"
   }
 }
