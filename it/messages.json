@@ -154,5 +154,9 @@
   "errorHighlightingMessage": {
     "message": "Evidenzia potenziali errori in rosso",
     "description": "Checkbox to highlight translation errors in the page in red."
+  },
+  "showChangelogOption": {
+    "message": "Mostra elenco delle modifiche dopo un aggiornamento",
+    "description": "Title for the option that toggles if the changelog is shown on an extension update"
   }
 }
