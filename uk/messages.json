@@ -154,5 +154,9 @@
   "errorHighlightingMessage": {
     "message": "Підсвічувати червоним потенційні помилки",
     "description": "Checkbox to highlight translation errors in the page in red."
+  },
+  "showChangelogOption": {
+    "message": "Показувати журнал змін для оновлень",
+    "description": "Title for the option that toggles if the changelog is shown on an extension update"
   }
 }
