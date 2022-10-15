@@ -32,15 +32,15 @@
     "description": "Tells the user the automatic translation was enabled."
   },
   "translationEnabledNoOT": {
-    "message": "A tradução automática está ativada, mas a tradução de formulários não é suportada neste idioma.",
+    "message": "A tradução automática está ativada, mas a tradução de formulários não é suportada para este idioma.",
     "description": "Tells the user the automatic translation was enabled but form translations is not supported."
   },
   "timeoutDownloadingEngine": {
-    "message": "O tempo limite para a transferência do motor de traduções foi ultrapassado.",
+    "message": "A transferência do motor de tradução expirou.",
     "description": "Tells the user the download of the translation engine timed out."
   },
   "errorLoadingWasm": {
-    "message": "Encontramos um erro a carregar o motor de traduções.",
+    "message": "Encontrámos um erro ao carregar o motor de traduções.",
     "description": "Tells the user we found and error loading the translation engine."
   },
   "statsMessage": {
@@ -154,5 +154,9 @@
   "errorHighlightingMessage": {
     "message": "Destacar possíveis erros a vermelho",
     "description": "Checkbox to highlight translation errors in the page in red."
+  },
+  "showChangelogOption": {
+    "message": "Mostrar registo de alterações nas atualizações",
+    "description": "Title for the option that toggles if the changelog is shown on an extension update"
   }
 }
