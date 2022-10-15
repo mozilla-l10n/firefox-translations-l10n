@@ -4,7 +4,7 @@
     "description": "Name of the extension. Do NOT translate, keep the name in English."
   },
   "extensionDescription": {
-    "message": "Traduza websites no seu navegador sem usar a nuvem.",
+    "message": "Traduza sites no seu navegador sem utilizar a nuvem.",
     "description": "Description of the extension."
   },
   "loadingTranslationEngine": {
