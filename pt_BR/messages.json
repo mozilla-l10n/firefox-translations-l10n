@@ -158,5 +158,51 @@
   "showChangelogOption": {
     "message": "Mostrar registro de alterações ao atualizar",
     "description": "Title for the option that toggles if the changelog is shown on an extension update"
+  },
+  "translationBarPageIsIn": {
+    "message": "Idioma da página",
+    "description": "This message is followed by a dropdown list of language names. If this doesn't work for your locale, you can translate it as ”Language of the page:”"
+  },
+  "translationBarTranslateButton": {
+    "message": "Traduzir",
+    "description": "Label for the button to start the translation"
+  },
+  "translationBarOptionsButton": {
+    "message": "Opções",
+    "description": "Label for an Options button that will display a dropdown menu"
+  },
+  "translationBarNeverThisSiteLabel": {
+    "message": "Nunca traduzir este site",
+    "description": "Label for a checkbox to never translate the current website"
+  },
+  "translationBarNeverThisSiteAccesskey": {
+    "message": "N",
+    "description": "Accesskey for a checkbox to never translate the current website"
+  },
+  "optionsMenuLabel": {
+    "message": "Preferências de tradução",
+    "description": "Label for options menu item in the Options dropdown"
+  },
+  "optionsMenuAccesskey": {
+    "message": "P",
+    "description": "Accesskey for options menu item in the Options dropdown"
+  },
+  "closeNotification": {
+    "message": "Ocultar esta mensagem",
+    "description": "Close notification tooltip"
+  },
+  "neverForLanguageLabel": {
+    "message": "Nunca traduzir de %S",
+    "description": "Label for options menu item in the Options dropdown. Language is replaced by a language name.",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "Italian"
+      }
+    }
+  },
+  "neverForLanguageAccesskey": {
+    "message": "N",
+    "description": "Accesskey for options menu item in the Options dropdown."
   }
 }

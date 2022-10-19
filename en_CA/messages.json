@@ -154,5 +154,51 @@
   "errorHighlightingMessage": {
     "message": "Highlight potential errors in red",
     "description": "Checkbox to highlight translation errors in the page in red."
+  },
+  "translationBarPageIsIn": {
+    "message": "This page is in",
+    "description": "This message is followed by a dropdown list of language names. If this doesn't work for your locale, you can translate it as ”Language of the page:”"
+  },
+  "translationBarTranslateButton": {
+    "message": "Translate",
+    "description": "Label for the button to start the translation"
+  },
+  "translationBarOptionsButton": {
+    "message": "Options",
+    "description": "Label for an Options button that will display a dropdown menu"
+  },
+  "translationBarNeverThisSiteLabel": {
+    "message": "Never translate this site",
+    "description": "Label for a checkbox to never translate the current website"
+  },
+  "translationBarNeverThisSiteAccesskey": {
+    "message": "e",
+    "description": "Accesskey for a checkbox to never translate the current website"
+  },
+  "optionsMenuLabel": {
+    "message": "Translation preferences",
+    "description": "Label for options menu item in the Options dropdown"
+  },
+  "optionsMenuAccesskey": {
+    "message": "T",
+    "description": "Accesskey for options menu item in the Options dropdown"
+  },
+  "closeNotification": {
+    "message": "Close this message",
+    "description": "Close notification tooltip"
+  },
+  "neverForLanguageLabel": {
+    "message": "Never translate %S",
+    "description": "Label for options menu item in the Options dropdown. Language is replaced by a language name.",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "Italian"
+      }
+    }
+  },
+  "neverForLanguageAccesskey": {
+    "message": "N",
+    "description": "Accesskey for options menu item in the Options dropdown."
   }
 }

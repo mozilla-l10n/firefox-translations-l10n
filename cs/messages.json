@@ -154,5 +154,51 @@
   "errorHighlightingMessage": {
     "message": "Zvýraznit červeně možné chyby",
     "description": "Checkbox to highlight translation errors in the page in red."
+  },
+  "translationBarPageIsIn": {
+    "message": "Tato stránka je v jazyce",
+    "description": "This message is followed by a dropdown list of language names. If this doesn't work for your locale, you can translate it as ”Language of the page:”"
+  },
+  "translationBarTranslateButton": {
+    "message": "Přeložit",
+    "description": "Label for the button to start the translation"
+  },
+  "translationBarOptionsButton": {
+    "message": "Možnosti",
+    "description": "Label for an Options button that will display a dropdown menu"
+  },
+  "translationBarNeverThisSiteLabel": {
+    "message": "Nikdy nepřekládat tuto stránku",
+    "description": "Label for a checkbox to never translate the current website"
+  },
+  "translationBarNeverThisSiteAccesskey": {
+    "message": "e",
+    "description": "Accesskey for a checkbox to never translate the current website"
+  },
+  "optionsMenuLabel": {
+    "message": "Nastavení překladu",
+    "description": "Label for options menu item in the Options dropdown"
+  },
+  "optionsMenuAccesskey": {
+    "message": "t",
+    "description": "Accesskey for options menu item in the Options dropdown"
+  },
+  "closeNotification": {
+    "message": "Zavře tuto zprávu",
+    "description": "Close notification tooltip"
+  },
+  "neverForLanguageLabel": {
+    "message": "Nikdy nepřekládat z jazyka %S",
+    "description": "Label for options menu item in the Options dropdown. Language is replaced by a language name.",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "Italian"
+      }
+    }
+  },
+  "neverForLanguageAccesskey": {
+    "message": "N",
+    "description": "Accesskey for options menu item in the Options dropdown."
   }
 }
