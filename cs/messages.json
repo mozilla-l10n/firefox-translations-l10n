@@ -188,7 +188,7 @@
     "description": "Close notification tooltip"
   },
   "neverForLanguageLabel": {
-    "message": "Nikdy nepřekládat z jazyka %S",
+    "message": "Nikdy nepřekládat z jazyka $LANGUAGE$",
     "description": "Label for options menu item in the Options dropdown. Language is replaced by a language name.",
     "placeholders": {
       "language": {

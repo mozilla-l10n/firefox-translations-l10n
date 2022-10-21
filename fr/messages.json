@@ -192,7 +192,7 @@
     "description": "Close notification tooltip"
   },
   "neverForLanguageLabel": {
-    "message": "Ne jamais traduire les pages en %S",
+    "message": "Ne jamais traduire les pages en $LANGUAGE$",
     "description": "Label for options menu item in the Options dropdown. Language is replaced by a language name.",
     "placeholders": {
       "language": {

@@ -188,7 +188,7 @@
     "description": "Close notification tooltip"
   },
   "neverForLanguageLabel": {
-    "message": "Nigdy nie tłumacz z tego języka%0.S",
+    "message": "Nigdy nie tłumacz z tego języka",
     "description": "Label for options menu item in the Options dropdown. Language is replaced by a language name.",
     "placeholders": {
       "language": {

@@ -192,7 +192,7 @@
     "description": "Close notification tooltip"
   },
   "neverForLanguageLabel": {
-    "message": "%S nie übersetzen",
+    "message": "$LANGUAGE$ nie übersetzen",
     "description": "Label for options menu item in the Options dropdown. Language is replaced by a language name.",
     "placeholders": {
       "language": {

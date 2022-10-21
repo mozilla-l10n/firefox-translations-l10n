@@ -192,7 +192,7 @@
     "description": "Close notification tooltip"
   },
   "neverForLanguageLabel": {
-    "message": "Aldrei þýða %S",
+    "message": "Aldrei þýða $LANGUAGE$",
     "description": "Label for options menu item in the Options dropdown. Language is replaced by a language name.",
     "placeholders": {
       "language": {

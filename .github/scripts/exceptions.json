@@ -4,5 +4,9 @@
 			"ja"
 		]
 	},
-	"placeholders": {}
+	"placeholders": {
+		"pl": [
+			"messages.json:neverForLanguageLabel"
+		]
+	}
 }
