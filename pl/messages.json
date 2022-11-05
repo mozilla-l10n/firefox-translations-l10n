@@ -155,6 +155,10 @@
     "message": "Wyróżnianie potencjalnych błędów na czerwono",
     "description": "Checkbox to highlight translation errors in the page in red."
   },
+  "showChangelogOption": {
+    "message": "Wyświetlanie informacji o zmianach po aktualizacji",
+    "description": "Title for the option that toggles if the changelog is shown on an extension update"
+  },
   "translationBarPageIsIn": {
     "message": "Język strony:",
     "description": "This message is followed by a dropdown list of language names. If this doesn't work for your locale, you can translate it as ”Language of the page:”"
