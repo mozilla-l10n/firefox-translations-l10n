@@ -207,6 +207,6 @@
     },
     "neverOfferTranslation": {
       "message": "Never offer translations",
-      "description": "Option to prevent the translation bar from being displayed"
+      "description": "Option to prevent the translation bar from being automatically displayed"
     }
 }
