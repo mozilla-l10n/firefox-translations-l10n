@@ -205,7 +205,7 @@
       "message": "N",
       "description": "Accesskey for options menu item in the Options dropdown."
     },
-    "neverOfferTransaltion": {
+    "neverOfferTranslation": {
       "message": "Never offer translations",
       "description": "Option to prevent the translation bar from being displayed"
     }
