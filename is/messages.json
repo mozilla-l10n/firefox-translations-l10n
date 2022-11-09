@@ -204,5 +204,9 @@
   "neverForLanguageAccesskey": {
     "message": "A",
     "description": "Accesskey for options menu item in the Options dropdown."
+  },
+  "neverOfferTranslation": {
+    "message": "Aldrei bjóða upp á þýðingar",
+    "description": "Option to prevent the translation bar from being automatically displayed"
   }
 }
