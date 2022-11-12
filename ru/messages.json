@@ -140,11 +140,11 @@
     "description": "Header of the data collection consent page"
   },
   "datacollectionConsentPageDescription": {
-    "message": "Это включает в себя высокоуровневое взаимодействие с пользователем и отчеты об ошибках. Изменить этот параметр можно в настройках в любое время. Данные хранятся защищённо и не содержат информации идентифицирующей личность.",
+    "message": "Это включает в себя высокоуровневое взаимодействие с пользователем и отчёты об ошибках. Изменить этот параметр можно в настройках в любое время. Данные хранятся защищённо и не содержат информации идентифицирующей личность.",
     "description": "Description of the data collection consent page"
   },
   "datacollectionConsentPageUserInteractionOption": {
-    "message": "Отправлять данные о высокоуровневым взаимодействим с пользователем",
+    "message": "Отправлять данные о высокоуровневом взаимодействии с пользователем",
     "description": "Title for the option that allows Mozilla to collect high level user-interaction"
   },
   "datacollectionConsentPageErrorsOption": {
@@ -152,7 +152,7 @@
     "description": "Title for the option that allows Mozilla to collect error reports"
   },
   "errorHighlightingMessage": {
-    "message": "Выделите потенциальные ошибки красным",
+    "message": "Выделите вероятные ошибки красным",
     "description": "Checkbox to highlight translation errors in the page in red."
   },
   "showChangelogOption": {
@@ -204,5 +204,9 @@
   "neverForLanguageAccesskey": {
     "message": "и",
     "description": "Accesskey for options menu item in the Options dropdown."
+  },
+  "neverOfferTranslation": {
+    "message": "Никогда не предлагать переводы",
+    "description": "Option to prevent the translation bar from being automatically displayed"
   }
 }
