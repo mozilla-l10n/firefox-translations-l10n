@@ -204,5 +204,9 @@
   "neverForLanguageAccesskey": {
     "message": "n",
     "description": "Accesskey for options menu item in the Options dropdown."
+  },
+  "neverOfferTranslation": {
+    "message": "Nooit vertalingen aanbieden",
+    "description": "Option to prevent the translation bar from being automatically displayed"
   }
 }
