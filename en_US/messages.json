@@ -211,6 +211,6 @@
     },
     "translateWith": {
       "message": "Translate with",
-      "description":"Context menu item to send selected text in the page to be translated by Firefox Translations popup."
+      "description":"Context menu item that copies the selected text in a popup dialog where it can be translated with Firefox Translations."
     }
 }
