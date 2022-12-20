@@ -213,8 +213,9 @@
       "message": "Translate with $FIREFOXTRANSLATIONS$",
       "description":"Context menu item that copies the selected text in a popup dialog where it can be translated with Firefox Translations.",
       "placeholders": {
-        "firefoxtranslations": {
-          "content": "Firefox Translations"
+        "firefoxtranslations" : {
+          "content": "$1",
+          "example": "Firefox Translations"
         }
       }
     }
