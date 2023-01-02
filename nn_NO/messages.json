@@ -204,5 +204,19 @@
   "neverForLanguageAccesskey": {
     "message": "O",
     "description": "Accesskey for options menu item in the Options dropdown."
+  },
+  "neverOfferTranslation": {
+    "message": "Aldri tilby omsettingar",
+    "description": "Option to prevent the translation bar from being automatically displayed"
+  },
+  "translateWith": {
+    "message": "Omset med $FIREFOXTRANSLATIONS$",
+    "description": "Context menu item that copies the selected text in a popup dialog where it can be translated with Firefox Translations.",
+    "placeholders": {
+      "firefoxtranslations": {
+        "content": "$1",
+        "example": "Firefox Translations"
+      }
+    }
   }
 }
