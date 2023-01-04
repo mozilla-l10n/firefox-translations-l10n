@@ -208,5 +208,15 @@
   "neverOfferTranslation": {
     "message": "Wyłącz tłumaczenie",
     "description": "Option to prevent the translation bar from being automatically displayed"
+  },
+  "translateWith": {
+    "message": "Przetłumacz za pomocą $FIREFOXTRANSLATIONS$",
+    "description": "Context menu item that copies the selected text in a popup dialog where it can be translated with Firefox Translations.",
+    "placeholders": {
+      "firefoxtranslations": {
+        "content": "$1",
+        "example": "Firefox Translations"
+      }
+    }
   }
 }
