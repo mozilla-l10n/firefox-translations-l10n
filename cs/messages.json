@@ -172,7 +172,7 @@
     "description": "Label for an Options button that will display a dropdown menu"
   },
   "translationBarNeverThisSiteLabel": {
-    "message": "Nikdy nepřekládat tuto stránku",
+    "message": "Nikdy nepřekládat tento web",
     "description": "Label for a checkbox to never translate the current website"
   },
   "translationBarNeverThisSiteAccesskey": {
@@ -208,5 +208,15 @@
   "neverOfferTranslation": {
     "message": "Nikdy nenabízet překlady",
     "description": "Option to prevent the translation bar from being automatically displayed"
+  },
+  "translateWith": {
+    "message": "Přeložit pomocí $FIREFOXTRANSLATIONS$",
+    "description": "Context menu item that copies the selected text in a popup dialog where it can be translated with Firefox Translations.",
+    "placeholders": {
+      "firefoxtranslations": {
+        "content": "$1",
+        "example": "Firefox Translations"
+      }
+    }
   }
 }
