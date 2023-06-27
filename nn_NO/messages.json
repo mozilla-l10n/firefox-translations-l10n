@@ -160,7 +160,7 @@
     "description": "Title for the option that toggles if the changelog is shown on an extension update"
   },
   "translationBarPageIsIn": {
-    "message": "Denne sida på",
+    "message": "Denne sida er på",
     "description": "This message is followed by a dropdown list of language names. If this doesn't work for your locale, you can translate it as ”Language of the page:”"
   },
   "translationBarTranslateButton": {
