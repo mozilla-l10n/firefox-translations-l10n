@@ -1,4 +1,76 @@
 {
+  "extensionDescription": {
+    "message": "وبگاه‌ها را بدون استفاده از فضای ابری، در مرورگر خود ترجمه کنید.",
+    "description": "Description of the extension."
+  },
+  "checksumErrorsDownloadingEngine": {
+    "message": "در هنگام بارگیری موتور ترجمه، با چند خطای جمع‌آزما مواجه شدیم.",
+    "description": "Tells the user there were errors downloading the translation engine."
+  },
+  "notfoundErrorsDownloadingEngine": {
+    "message": "هیچ موتور ترجمه‌ای برای بارگیری یافت نشد.",
+    "description": "Tells the user the translation engine could not be found to download."
+  },
+  "nodataDownloadingEngine": {
+    "message": "در هنگام بارگیری موتور ترجمه، هیچ داده‌ای یافت نشد.",
+    "description": "Tells the user the translation engine had not data when downloading."
+  },
+  "translationEnabledNoOT": {
+    "message": "ترجمۀ خودکار فعال است اما ترجمۀ فرم‌ها برای این زبان پشتیبانی نمی‌شود.",
+    "description": "Tells the user the automatic translation was enabled but form translations is not supported."
+  },
+  "timeoutDownloadingEngine": {
+    "message": "زمان بارگیری موتور ترجمه منقضی شد.",
+    "description": "Tells the user the download of the translation engine timed out."
+  },
+  "downloadProgress": {
+    "message": "بارگیری‌ شده (بایت): $RECEIVEDLENGTH$ از $CONTENTLENGTH$.",
+    "description": "Tells the user the download progress of the engine artifacts.",
+    "placeholders": {
+      "receivedlength": {
+        "content": "$1",
+        "example": "100"
+      },
+      "contentlength": {
+        "content": "$2",
+        "example": "1000"
+      }
+    }
+  },
+  "surveyMessage": {
+    "message": "شرکت در نظرسنجی",
+    "description": "A message to invite a user to participate in survey. It's displayed on a button so it has to be short!"
+  },
+  "outboundTranslationsMessage": {
+    "message": "فعال‌سازی ترجمۀ فرم‌ها",
+    "description": "Checkbox to enable the translation of forms."
+  },
+  "formtranslationsTyping": {
+    "message": "درحال نگارش…",
+    "description": "Notifies the user that typing is occuring in the form translations area."
+  },
+  "formtranslationsDescription": {
+    "message": "این قابلیت ترجمهٔ فرم توسط Firefox Translations است. در خانهٔ سمت چپ در <em>$navigatorLanguage$</em> بنویسید و ترجمۀ به <em>$pageLanguage$</em> در فرم اصلی درج خواهد شد. برای اطمینان بیشتر، متن ترجمه شده از <em>$pageLanguage$</em> به <em>$navigatorLanguage$</em> در خانهٔ سمت راست نمایش داده می‌شود.",
+    "description": "Usage instructions of form translations to be displayed to the user.",
+    "placeholders": {
+      "navigatorLanguage": {
+        "content": "$1",
+        "example": "English"
+      },
+      "pageLanguage": {
+        "content": "$2",
+        "example": "Portuguese"
+      }
+    }
+  },
+  "translateAsBrowseOn": {
+    "message": "هنگام وب‌گردی، این زبانه به‌صورت خودکار ترجمه شود",
+    "description": "Message displayed to the user (as a button), asking if they want to turn on automatic translation for the tab."
+  },
+  "translateAsBrowseOff": {
+    "message": "هنگام مشاهدهٔ این زبانه ترجمهٔ خودکار خاموش شود",
+    "description": "Message displayed to the user (as a button) to turn off automatic translation in the tab."
+  },
   "showChangelogOption": {
     "message": "نمایش تغییرات در به‌روز‌رسانی‌ها",
     "description": "Title for the option that toggles if the changelog is shown on an extension update"
