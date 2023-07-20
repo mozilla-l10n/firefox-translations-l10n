@@ -71,6 +71,14 @@
     "message": "هنگام مشاهدهٔ این زبانه ترجمهٔ خودکار خاموش شود",
     "description": "Message displayed to the user (as a button) to turn off automatic translation in the tab."
   },
+  "datacollectionConsentPageTitle": {
+    "message": "آیا به Firefox Translations اجازه می‌دهید برخی داده‌های فنی و تعاملی را به Mozilla ارسال کند؟",
+    "description": "Header of the data collection consent page"
+  },
+  "errorHighlightingMessage": {
+    "message": "خطاهای احتمالی به رنگ قرمز مشخص شود",
+    "description": "Checkbox to highlight translation errors in the page in red."
+  },
   "showChangelogOption": {
     "message": "نمایش تغییرات در به‌روز‌رسانی‌ها",
     "description": "Title for the option that toggles if the changelog is shown on an extension update"
