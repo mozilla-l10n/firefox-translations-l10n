@@ -172,7 +172,7 @@
     "description": "Label for an Options button that will display a dropdown menu"
   },
   "translationBarNeverThisSiteLabel": {
-    "message": "Aldri oversett dette nettstedet",
+    "message": "Oversett aldri dette nettstedet",
     "description": "Label for a checkbox to never translate the current website"
   },
   "translationBarNeverThisSiteAccesskey": {
